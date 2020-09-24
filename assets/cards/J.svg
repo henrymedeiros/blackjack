@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 255 370" style="enable-background:new 0 0 255 370;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1C1824;}
+	.st1{fill:none;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:url(#Polígono_7_1_);}
+	.st4{fill:url(#Polígono_9_1_);}
+	.st5{fill:url(#Polígono_8-2_1_);}
+</style>
+<g id="Knight_Card" transform="translate(-110 -646)">
+	<g transform="matrix(1, 0, 0, 1, 110, 646)">
+		<path id="Card-2_1_" class="st0" d="M22.1,0.1h211c12.2,0,22,9.8,22,22v326c0,12.2-9.8,22-22,22h-211c-12.2,0-22-9.8-22-22v-326
+			C0.1,10,9.9,0.1,22.1,0.1z"/>
+	</g>
+	<g id="top_symbol_1_" transform="translate(0.51 -4.375)">
+		<g id="Polígono_4_1_" transform="translate(197.652 736.5) rotate(180)">
+			<path class="st1" d="M59,19.9l9.1,16H49.9L59,19.9z"/>
+			<path class="st2" d="M59,23.9l-5.6,9.9h11.3L59,23.9 M59,19.9l9.1,16H49.9L59,19.9z"/>
+		</g>
+		<path id="Caminho_44" class="st2" d="M142.5,671.9v13.4c0.1,1.2-0.4,2.3-1.2,3.2c-0.9,0.8-2.1,1.3-3.3,1.2
+			c-1.3,0.1-2.6-0.4-3.5-1.4c-0.9-1-1.4-2.4-1.3-3.8h1.8c0,0.9,0.2,1.8,0.7,2.6c0.6,0.7,1.4,1,2.3,1c0.8,0.1,1.6-0.2,2.1-0.8
+			c0.4-0.6,0.7-1.3,0.6-2v-13.4H142.5z"/>
+	</g>
+	<g id="top_symbol-2_1_" transform="translate(377 968.375)">
+		<g id="Polígono_4-2_1_" transform="translate(18.162 16) rotate(180)">
+			<path class="st1" d="M59,19.9l9.1,16H49.9L59,19.9z"/>
+			<path class="st2" d="M59,23.9l-5.6,9.9h11.3L59,23.9 M59,19.9l9.1,16H49.9L59,19.9z"/>
+		</g>
+		<path id="Caminho_44-2" class="st2" d="M-37,24.9V11.5c0.1-1.2-0.4-2.3-1.2-3.2c-0.9-0.8-2.1-1.3-3.3-1.2C-42.8,7-44.1,7.5-45,8.4
+			c-0.9,1-1.4,2.4-1.3,3.8h1.8c0-0.9,0.2-1.8,0.7-2.6c0.6-0.7,1.4-1,2.3-1c0.8-0.1,1.6,0.2,2.1,0.8c0.4,0.6,0.7,1.3,0.6,2v13.4H-37z
+			"/>
+	</g>
+	<g id="Grupo_6">
+		
+			<linearGradient id="Polígono_7_1_" gradientUnits="userSpaceOnUse" x1="103.3339" y1="1415.7554" x2="103.3339" y2="1414.7554" gradientTransform="matrix(60 0 0 -142 -5961.96 201749.4063)">
+			<stop  offset="0" style="stop-color:#FE8C00"/>
+			<stop  offset="1" style="stop-color:#F83600"/>
+		</linearGradient>
+		<path id="Polígono_7" class="st3" d="M238.1,712.1l30,142h-60L238.1,712.1z"/>
+		
+			<linearGradient id="Polígono_9_1_" gradientUnits="userSpaceOnUse" x1="119.9803" y1="1413.7811" x2="119.9803" y2="1412.7811" gradientTransform="matrix(-27 0 0 88 3477.04 -123464.6016)">
+			<stop  offset="0" style="stop-color:#FE8C00"/>
+			<stop  offset="1" style="stop-color:#F83600"/>
+		</linearGradient>
+		<path id="Polígono_9" class="st4" d="M237.6,948.1l-13.5-88h27L237.6,948.1z"/>
+		<g transform="matrix(1, 0, 0, 1, 110, 646)">
+			
+				<linearGradient id="Polígono_8-2_1_" gradientUnits="userSpaceOnUse" x1="0.5528" y1="765.5401" x2="0.5528" y2="764.5401" gradientTransform="matrix(-151 0 0 31 211.04 -23486.5996)">
+				<stop  offset="0" style="stop-color:#FE8C00"/>
+				<stop  offset="1" style="stop-color:#F83600"/>
+			</linearGradient>
+			<path id="Polígono_8-2" class="st5" d="M127.6,245.1l-75.5-31h151L127.6,245.1z"/>
+		</g>
+	</g>
+</g>
+</svg>

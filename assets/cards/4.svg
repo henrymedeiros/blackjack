@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 255 370" style="enable-background:new 0 0 255 370;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1C1824;}
+	.st1{fill:url(#Triangle_1_);}
+	.st2{fill:url(#Triangle-2_1_);}
+	.st3{fill:url(#Triangle-3_1_);}
+	.st4{fill:none;}
+	.st5{fill:#FFFFFF;}
+	.st6{fill:url(#Triangle-4_1_);}
+</style>
+<g id="_4" transform="translate(-110 -646)">
+	<g transform="matrix(1, 0, 0, 1, 110, 646)">
+		<path id="Card-2" class="st0" d="M22.1,0.4h211c12.2,0,22,9.8,22,22v326c0,12.2-9.8,22-22,22h-211c-12.2,0-22-9.8-22-22v-326
+			C0.1,10.3,9.9,0.4,22.1,0.4z"/>
+	</g>
+	
+		<linearGradient id="Triangle_1_" gradientUnits="userSpaceOnUse" x1="114.6994" y1="1412.5286" x2="114.6994" y2="1411.5286" gradientTransform="matrix(-50 0 0 43.284 5922.04 -60384.4609)">
+		<stop  offset="0" style="stop-color:#FE8C00"/>
+		<stop  offset="1" style="stop-color:#F83600"/>
+	</linearGradient>
+	<path id="Triangle" class="st1" d="M187.1,755.4l-25-43.3h50L187.1,755.4z"/>
+	
+		<linearGradient id="Triangle-2_1_" gradientUnits="userSpaceOnUse" x1="114.6994" y1="1412.5286" x2="114.6994" y2="1411.5286" gradientTransform="matrix(-50 0 0 43.284 5922.04 -60192.4609)">
+		<stop  offset="0" style="stop-color:#FE8C00"/>
+		<stop  offset="1" style="stop-color:#F83600"/>
+	</linearGradient>
+	<path id="Triangle-2" class="st2" d="M187.1,947.4l-25-43.3h50L187.1,947.4z"/>
+	
+		<linearGradient id="Triangle-3_1_" gradientUnits="userSpaceOnUse" x1="114.6994" y1="1412.5286" x2="114.6994" y2="1411.5286" gradientTransform="matrix(-50 0 0 43.284 6023.04 -60192.4609)">
+		<stop  offset="0" style="stop-color:#FE8C00"/>
+		<stop  offset="1" style="stop-color:#F83600"/>
+	</linearGradient>
+	<path id="Triangle-3" class="st3" d="M288.1,947.4l-25-43.3h50L288.1,947.4z"/>
+	<g id="top_symbol" transform="translate(0.51 -4.375)">
+		<g id="Polígono_4" transform="translate(197.652 736.5) rotate(180)">
+			<path class="st4" d="M59,19.6l9.1,16H49.9L59,19.6z"/>
+			<path class="st5" d="M59,23.6l-5.6,9.9h11.3L59,23.6 M59,19.6l9.1,16H49.9L59,19.6z"/>
+		</g>
+		<path id="Caminho_32" class="st5" d="M131.6,684.6v-1.5l9.3-12h1.9V683h2.8v1.5h-2.8v4.3H141v-4.3H131.6z M141.1,673.3l-7.7,9.7
+			h7.7V673.3z"/>
+	</g>
+	<g id="top_symbol-2" transform="translate(377 974.3)">
+		<g id="Polígono_4-2" transform="translate(18.162 9) rotate(180)">
+			<path class="st4" d="M59,19.6l9.1,16H49.9L59,19.6z"/>
+			<path class="st5" d="M59,23.6l-5.6,9.9h11.3L59,23.6 M59,19.6l9.1,16H49.9L59,19.6z"/>
+		</g>
+		<path id="Caminho_32-2" class="st5" d="M-47.9,5.8v1.4l9.3,12h1.9V7.4h2.8V5.8h-2.8V1.6h-1.8v4.3L-47.9,5.8z M-38.4,17.1l-7.6-9.7
+			h7.6V17.1z"/>
+	</g>
+	
+		<linearGradient id="Triangle-4_1_" gradientUnits="userSpaceOnUse" x1="114.6994" y1="1412.5286" x2="114.6994" y2="1411.5286" gradientTransform="matrix(-50 0 0 43.284 6023.04 -60384.4609)">
+		<stop  offset="0" style="stop-color:#FE8C00"/>
+		<stop  offset="1" style="stop-color:#F83600"/>
+	</linearGradient>
+	<path id="Triangle-4" class="st6" d="M288.1,755.4l-25-43.3h50L288.1,755.4z"/>
+</g>
+</svg>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 255 370" style="enable-background:new 0 0 255 370;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1C1824;}
+	.st1{fill:none;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:url(#Polígono_6_1_);}
+	.st4{fill:url(#Caminho_20-2_1_);}
+	.st5{fill:url(#Caminho_21-2_1_);}
+</style>
+<g id="King_Card" transform="translate(-110 -646)">
+	<g transform="matrix(1, 0, 0, 1, 110, 646)">
+		<path id="Card-2" class="st0" d="M22.1,0.1h211c12.2,0,22,9.8,22,22v326c0,12.2-9.8,22-22,22h-211c-12.2,0-22-9.8-22-22v-326
+			C0.1,10,9.9,0.1,22.1,0.1z"/>
+	</g>
+	<g id="top_symbol" transform="translate(0.51 -4.375)">
+		<g id="Polígono_4" transform="translate(197.652 736.5) rotate(180)">
+			<path class="st1" d="M59,19.9l9.1,16H49.9L59,19.9z"/>
+			<path class="st2" d="M59,23.9l-5.6,9.9h11.3L59,23.9 M59,19.9l9.1,16H49.9L59,19.9z"/>
+		</g>
+		<path id="Caminho_38" class="st2" d="M136.8,680.7l8.3,8.9h-2.2l-7.7-8.3v8.3h-1.8v-17.6h1.8v8.3l7.7-8.3h2.2L136.8,680.7z"/>
+	</g>
+	<g id="top_symbol-2" transform="translate(377 967.375)">
+		<g id="Polígono_4-2" transform="translate(18.162 16) rotate(180)">
+			<path class="st1" d="M59,19.9l9.1,16H49.9L59,19.9z"/>
+			<path class="st2" d="M59,23.9l-5.6,9.9h11.3L59,23.9 M59,19.9l9.1,16H49.9L59,19.9z"/>
+		</g>
+		<path id="Caminho_38-2" class="st2" d="M-42.7,16.1l8.3-8.9h-2.2l-7.7,8.3V7.3H-46v17.6h1.8v-8.3l7.7,8.3h2.2L-42.7,16.1z"/>
+	</g>
+	<g id="Grupo_9">
+		
+			<linearGradient id="Polígono_6_1_" gradientUnits="userSpaceOnUse" x1="105.7324" y1="1415.4564" x2="105.7324" y2="1414.3284" gradientTransform="matrix(112 0 0 -235 -11603.96 333344.4063)">
+			<stop  offset="0" style="stop-color:#FE8C00"/>
+			<stop  offset="1" style="stop-color:#F83600"/>
+		</linearGradient>
+		<path id="Polígono_6" class="st3" d="M238.1,712.1l56,235h-112L238.1,712.1z"/>
+		<g transform="matrix(1, 0, 0, 1, 110, 646)">
+			
+				<linearGradient id="Caminho_20-2_1_" gradientUnits="userSpaceOnUse" x1="-5.6055" y1="769.6349" x2="-5.6055" y2="768.507" gradientTransform="matrix(75.5 0 0 -168.917 588.54 130136.9063)">
+				<stop  offset="0" style="stop-color:#FE8C00"/>
+				<stop  offset="1" style="stop-color:#F83600"/>
+			</linearGradient>
+			<path id="Caminho_20-2" class="st4" d="M203.1,132.5v168.9h-75.5L203.1,132.5z"/>
+		</g>
+		<g transform="matrix(1, 0, 0, 1, 110, 646)">
+			
+				<linearGradient id="Caminho_21-2_1_" gradientUnits="userSpaceOnUse" x1="-5.5785" y1="769.6349" x2="-5.5785" y2="768.507" gradientTransform="matrix(76 0 0 -168.917 514.04 130136.9063)">
+				<stop  offset="0" style="stop-color:#FE8C00"/>
+				<stop  offset="1" style="stop-color:#F83600"/>
+			</linearGradient>
+			<path id="Caminho_21-2" class="st5" d="M52.1,132.5v168.9h76L52.1,132.5z"/>
+		</g>
+	</g>
+</g>
+</svg>

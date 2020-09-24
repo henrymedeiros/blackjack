@@ -1,0 +1,1477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 255 370" style="enable-background:new 0 0 255 370;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1C1824;}
+	.st1{fill:url(#Triangle_1_);}
+	.st2{fill:url(#Triangle-2_1_);}
+	.st3{clip-path:url(#SVGID_2_);}
+	.st4{fill:url(#Polígono_12_1_);}
+	.st5{fill:url(#Polígono_13_1_);}
+	.st6{fill:url(#Caminho_46_1_);}
+	.st7{fill:url(#SVGID_3_);}
+	.st8{fill:#707070;}
+	.st9{fill:url(#Polígono_16_1_);}
+	.st10{fill:url(#Polígono_12-2_1_);}
+	.st11{fill:url(#Polígono_13-2_1_);}
+	.st12{fill:url(#Caminho_46-2_1_);}
+	.st13{fill:url(#SVGID_4_);}
+	.st14{fill:url(#Polígono_16-2_1_);}
+	.st15{fill:url(#Polígono_12-3_1_);}
+	.st16{fill:url(#Polígono_13-3_1_);}
+	.st17{fill:url(#Caminho_46-3_1_);}
+	.st18{fill:url(#SVGID_5_);}
+	.st19{fill:url(#Polígono_16-3_1_);}
+	.st20{fill:url(#Polígono_12-4_1_);}
+	.st21{fill:url(#Polígono_13-4_1_);}
+	.st22{fill:url(#Caminho_46-4_1_);}
+	.st23{fill:url(#SVGID_6_);}
+	.st24{fill:url(#Polígono_16-4_1_);}
+	.st25{fill:url(#Polígono_12-5_1_);}
+	.st26{fill:url(#Polígono_13-5_1_);}
+	.st27{fill:url(#Caminho_46-5_1_);}
+	.st28{fill:url(#SVGID_7_);}
+	.st29{fill:url(#Polígono_16-5_1_);}
+	.st30{fill:url(#Polígono_12-6_1_);}
+	.st31{fill:url(#Polígono_13-6_1_);}
+	.st32{fill:url(#Caminho_46-6_1_);}
+	.st33{fill:url(#SVGID_8_);}
+	.st34{fill:url(#Polígono_16-6_1_);}
+	.st35{fill:url(#Polígono_12-7_1_);}
+	.st36{fill:url(#Polígono_13-7_1_);}
+	.st37{fill:url(#Caminho_46-7_1_);}
+	.st38{fill:url(#SVGID_9_);}
+	.st39{fill:url(#Polígono_16-7_1_);}
+	.st40{fill:url(#Polígono_12-8_1_);}
+	.st41{fill:url(#Polígono_13-8_1_);}
+	.st42{fill:url(#Caminho_46-8_1_);}
+	.st43{fill:url(#SVGID_10_);}
+	.st44{fill:url(#Polígono_16-8_1_);}
+	.st45{fill:url(#Polígono_12-9_1_);}
+	.st46{fill:url(#Polígono_13-9_1_);}
+	.st47{fill:url(#Caminho_46-9_1_);}
+	.st48{fill:url(#SVGID_11_);}
+	.st49{fill:url(#Polígono_16-9_1_);}
+	.st50{fill:url(#Polígono_12-10_1_);}
+	.st51{fill:url(#Polígono_13-10_1_);}
+	.st52{fill:url(#Caminho_46-10_1_);}
+	.st53{fill:url(#SVGID_12_);}
+	.st54{fill:url(#Polígono_16-10_1_);}
+	.st55{fill:url(#Polígono_12-11_1_);}
+	.st56{fill:url(#Polígono_13-11_1_);}
+	.st57{fill:url(#Caminho_46-11_1_);}
+	.st58{fill:url(#SVGID_13_);}
+	.st59{fill:url(#Polígono_16-11_1_);}
+	.st60{fill:url(#Polígono_12-12_1_);}
+	.st61{fill:url(#Polígono_13-12_1_);}
+	.st62{fill:url(#Caminho_46-12_1_);}
+	.st63{fill:url(#SVGID_14_);}
+	.st64{fill:url(#Polígono_16-12_1_);}
+	.st65{fill:url(#Polígono_12-13_1_);}
+	.st66{fill:url(#Polígono_13-13_1_);}
+	.st67{fill:url(#Caminho_46-13_1_);}
+	.st68{fill:url(#SVGID_15_);}
+	.st69{fill:url(#Polígono_16-13_1_);}
+	.st70{fill:url(#Polígono_12-14_1_);}
+	.st71{fill:url(#Polígono_13-14_1_);}
+	.st72{fill:url(#Caminho_46-14_1_);}
+	.st73{fill:url(#SVGID_16_);}
+	.st74{fill:url(#Polígono_16-14_1_);}
+	.st75{fill:url(#Polígono_12-15_1_);}
+	.st76{fill:url(#Polígono_13-15_1_);}
+	.st77{fill:url(#Caminho_46-15_1_);}
+	.st78{fill:url(#SVGID_17_);}
+	.st79{fill:url(#Polígono_16-15_1_);}
+	.st80{fill:url(#Polígono_12-16_1_);}
+	.st81{fill:url(#Polígono_13-16_1_);}
+	.st82{fill:url(#Caminho_46-16_1_);}
+	.st83{fill:url(#SVGID_18_);}
+	.st84{fill:url(#Polígono_16-16_1_);}
+	.st85{fill:url(#Polígono_12-17_1_);}
+	.st86{fill:url(#Polígono_13-17_1_);}
+	.st87{fill:url(#Caminho_46-17_1_);}
+	.st88{fill:url(#SVGID_19_);}
+	.st89{fill:url(#Polígono_16-17_1_);}
+	.st90{fill:url(#Polígono_12-18_1_);}
+	.st91{fill:url(#Polígono_13-18_1_);}
+	.st92{fill:url(#Caminho_46-18_1_);}
+	.st93{fill:url(#SVGID_20_);}
+	.st94{fill:url(#Polígono_16-18_1_);}
+	.st95{fill:url(#Polígono_12-19_1_);}
+	.st96{fill:url(#Polígono_13-19_1_);}
+	.st97{fill:url(#Caminho_46-19_1_);}
+	.st98{fill:url(#SVGID_21_);}
+	.st99{fill:url(#Polígono_16-19_1_);}
+	.st100{fill:url(#Polígono_12-20_1_);}
+	.st101{fill:url(#Polígono_13-20_1_);}
+	.st102{fill:url(#Caminho_46-20_1_);}
+	.st103{fill:url(#SVGID_22_);}
+	.st104{fill:url(#Polígono_16-20_1_);}
+	.st105{fill:url(#Polígono_12-21_1_);}
+	.st106{fill:url(#Polígono_13-21_1_);}
+	.st107{fill:url(#Caminho_46-21_1_);}
+	.st108{fill:url(#SVGID_23_);}
+	.st109{fill:url(#Polígono_16-21_1_);}
+	.st110{fill:url(#Polígono_12-22_1_);}
+	.st111{fill:url(#Polígono_13-22_1_);}
+	.st112{fill:url(#Caminho_46-22_1_);}
+	.st113{fill:url(#SVGID_24_);}
+	.st114{fill:url(#Polígono_16-22_1_);}
+	.st115{fill:url(#Polígono_12-23_1_);}
+	.st116{fill:url(#Polígono_13-23_1_);}
+	.st117{fill:url(#Caminho_46-23_1_);}
+	.st118{fill:url(#SVGID_25_);}
+	.st119{fill:url(#Polígono_16-23_1_);}
+	.st120{fill:url(#Polígono_12-24_1_);}
+	.st121{fill:url(#Polígono_13-24_1_);}
+	.st122{fill:url(#Caminho_46-24_1_);}
+	.st123{fill:url(#SVGID_26_);}
+	.st124{fill:url(#Polígono_16-24_1_);}
+	.st125{fill:url(#Polígono_12-25_1_);}
+	.st126{fill:url(#Polígono_13-25_1_);}
+	.st127{fill:url(#Caminho_46-25_1_);}
+	.st128{fill:url(#SVGID_27_);}
+	.st129{fill:url(#Polígono_16-25_1_);}
+	.st130{fill:url(#Polígono_12-26_1_);}
+	.st131{fill:url(#Polígono_13-26_1_);}
+	.st132{fill:url(#Caminho_46-26_1_);}
+	.st133{fill:url(#SVGID_28_);}
+	.st134{fill:url(#Polígono_16-26_1_);}
+	.st135{fill:url(#Polígono_12-27_1_);}
+	.st136{fill:url(#Polígono_13-27_1_);}
+	.st137{fill:url(#Caminho_46-27_1_);}
+	.st138{fill:url(#SVGID_29_);}
+	.st139{fill:url(#Polígono_16-27_1_);}
+	.st140{fill:url(#Polígono_12-28_1_);}
+	.st141{fill:url(#Polígono_13-28_1_);}
+	.st142{fill:url(#Caminho_46-28_1_);}
+	.st143{fill:url(#SVGID_30_);}
+	.st144{fill:url(#Polígono_16-28_1_);}
+	.st145{fill:url(#Polígono_12-29_1_);}
+	.st146{fill:url(#Polígono_13-29_1_);}
+	.st147{fill:url(#Caminho_46-29_1_);}
+	.st148{fill:url(#SVGID_31_);}
+	.st149{fill:url(#Polígono_16-29_1_);}
+	.st150{fill:url(#Polígono_12-30_1_);}
+	.st151{fill:url(#Polígono_13-30_1_);}
+	.st152{fill:url(#Caminho_46-30_1_);}
+	.st153{fill:url(#SVGID_32_);}
+	.st154{fill:url(#Polígono_16-30_1_);}
+	.st155{fill:url(#Polígono_12-31_1_);}
+	.st156{fill:url(#Polígono_13-31_1_);}
+	.st157{fill:url(#Caminho_46-31_1_);}
+	.st158{fill:url(#SVGID_33_);}
+	.st159{fill:url(#Polígono_16-31_1_);}
+	.st160{fill:url(#Polígono_12-32_1_);}
+	.st161{fill:url(#Polígono_13-32_1_);}
+	.st162{fill:url(#Caminho_46-32_1_);}
+	.st163{fill:url(#SVGID_34_);}
+	.st164{fill:url(#Polígono_16-32_1_);}
+	.st165{fill:url(#Polígono_12-33_1_);}
+	.st166{fill:url(#Polígono_13-33_1_);}
+	.st167{fill:url(#Caminho_46-33_1_);}
+	.st168{fill:url(#SVGID_35_);}
+	.st169{fill:url(#Polígono_16-33_1_);}
+	.st170{fill:url(#Polígono_12-34_1_);}
+	.st171{fill:url(#Polígono_13-34_1_);}
+	.st172{fill:url(#Caminho_46-34_1_);}
+	.st173{fill:url(#SVGID_36_);}
+	.st174{fill:url(#Polígono_16-34_1_);}
+	.st175{fill:url(#Polígono_12-35_1_);}
+	.st176{fill:url(#Polígono_13-35_1_);}
+	.st177{fill:url(#Caminho_46-35_1_);}
+	.st178{fill:url(#SVGID_37_);}
+	.st179{fill:url(#Polígono_16-35_1_);}
+	.st180{fill:url(#Polígono_12-36_1_);}
+	.st181{fill:url(#Polígono_13-36_1_);}
+	.st182{fill:url(#Caminho_46-36_1_);}
+	.st183{fill:url(#SVGID_38_);}
+	.st184{fill:url(#Polígono_16-36_1_);}
+	.st185{fill:none;}
+	.st186{fill:none;stroke:#FE8C00;stroke-width:3;}
+</style>
+<g id="King_card" transform="translate(-110 -646)">
+	<g transform="matrix(1, 0, 0, 1, 110, 646)">
+		<path id="Card-2" class="st0" d="M22.1-0.1h211c12.2,0,22,9.8,22,22v326c0,12.2-9.8,22-22,22h-211c-12.2,0-22-9.8-22-22v-326
+			C0.1,9.7,9.9-0.1,22.1-0.1z"/>
+	</g>
+	<g id="Grupo_10">
+		<g>
+			<defs>
+				<rect id="SVGID_1_" x="153.1" y="711.9" width="160" height="236"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g id="Repetição_de_grade_3" transform="translate(203 732)" class="st3">
+				<g transform="translate(-203 -732)">
+					
+						<linearGradient id="Polígono_12_1_" gradientUnits="userSpaceOnUse" x1="124.6086" y1="1408.1473" x2="124.9685" y2="1407.9313" gradientTransform="matrix(-19 0 0 17 2534.04 -23218.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12" class="st4" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13_1_" gradientUnits="userSpaceOnUse" x1="91.9803" y1="1420.7994" x2="92.3403" y2="1420.5834" gradientTransform="matrix(19 0 0 -17 -1574.96 24874.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13" class="st5" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46_1_" gradientUnits="userSpaceOnUse" x1="124.6086" y1="1408.1473" x2="124.9685" y2="1407.9313" gradientTransform="matrix(-19 0 0 17 2548.04 -23197.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46" class="st6" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-140.6274" y1="668.4228" x2="-140.2674" y2="668.2068" gradientTransform="matrix(17.2956 0 0 -15.475 2388.2549 10332.9004)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st7" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16_1_" gradientUnits="userSpaceOnUse" x1="91.9803" y1="1420.7994" x2="92.3403" y2="1420.5834" gradientTransform="matrix(19 0 0 -17 -1588.96 24895.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16" class="st9" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-175 -732)">
+					
+						<linearGradient id="Polígono_12-2_1_" gradientUnits="userSpaceOnUse" x1="96.6086" y1="1408.1473" x2="96.9685" y2="1407.9313" gradientTransform="matrix(-19 0 0 17 2002.04 -23218.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-2" class="st10" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-2_1_" gradientUnits="userSpaceOnUse" x1="63.9803" y1="1420.7994" x2="64.3403" y2="1420.5834" gradientTransform="matrix(19 0 0 -17 -1042.96 24874.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-2" class="st11" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-2_1_" gradientUnits="userSpaceOnUse" x1="96.6086" y1="1408.1473" x2="96.9685" y2="1407.9313" gradientTransform="matrix(-19 0 0 17 2016.04 -23197.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-2" class="st12" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-2" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="-168.6274" y1="668.4228" x2="-168.2674" y2="668.2068" gradientTransform="matrix(17.2956 0 0 -15.475 2872.5325 10332.9004)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st13" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-2_1_" gradientUnits="userSpaceOnUse" x1="63.9803" y1="1420.7994" x2="64.3403" y2="1420.5834" gradientTransform="matrix(19 0 0 -17 -1056.96 24895.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-2" class="st14" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-147 -732)">
+					
+						<linearGradient id="Polígono_12-3_1_" gradientUnits="userSpaceOnUse" x1="68.6086" y1="1408.1473" x2="68.9685" y2="1407.9313" gradientTransform="matrix(-19 0 0 17 1470.04 -23218.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-3" class="st15" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-3_1_" gradientUnits="userSpaceOnUse" x1="35.9803" y1="1420.7994" x2="36.3403" y2="1420.5834" gradientTransform="matrix(19 0 0 -17 -510.96 24874.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-3" class="st16" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-3_1_" gradientUnits="userSpaceOnUse" x1="68.6086" y1="1408.1473" x2="68.9685" y2="1407.9313" gradientTransform="matrix(-19 0 0 17 1484.04 -23197.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-3" class="st17" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-3" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="-196.6274" y1="668.4228" x2="-196.2674" y2="668.2068" gradientTransform="matrix(17.2956 0 0 -15.475 3356.8103 10332.9004)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st18" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-3_1_" gradientUnits="userSpaceOnUse" x1="35.9803" y1="1420.7994" x2="36.3403" y2="1420.5834" gradientTransform="matrix(19 0 0 -17 -524.96 24895.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-3" class="st19" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-119 -732)">
+					
+						<linearGradient id="Polígono_12-4_1_" gradientUnits="userSpaceOnUse" x1="40.6085" y1="1408.1473" x2="40.9685" y2="1407.9313" gradientTransform="matrix(-19 0 0 17 938.04 -23218.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-4" class="st20" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-4_1_" gradientUnits="userSpaceOnUse" x1="7.9803" y1="1420.7994" x2="8.3403" y2="1420.5834" gradientTransform="matrix(19 0 0 -17 21.04 24874.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-4" class="st21" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-4_1_" gradientUnits="userSpaceOnUse" x1="40.6085" y1="1408.1473" x2="40.9685" y2="1407.9313" gradientTransform="matrix(-19 0 0 17 952.04 -23197.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-4" class="st22" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-4" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="-224.6274" y1="668.4228" x2="-224.2674" y2="668.2068" gradientTransform="matrix(17.2956 0 0 -15.475 3841.0879 10332.9004)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st23" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-4_1_" gradientUnits="userSpaceOnUse" x1="7.9803" y1="1420.7994" x2="8.3403" y2="1420.5834" gradientTransform="matrix(19 0 0 -17 7.04 24895.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-4" class="st24" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-91 -732)">
+					
+						<linearGradient id="Polígono_12-5_1_" gradientUnits="userSpaceOnUse" x1="12.6085" y1="1408.1473" x2="12.9685" y2="1407.9313" gradientTransform="matrix(-19 0 0 17 406.04 -23218.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-5" class="st25" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-5_1_" gradientUnits="userSpaceOnUse" x1="-20.0197" y1="1420.7994" x2="-19.6597" y2="1420.5834" gradientTransform="matrix(19 0 0 -17 553.04 24874.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-5" class="st26" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-5_1_" gradientUnits="userSpaceOnUse" x1="12.6085" y1="1408.1473" x2="12.9685" y2="1407.9313" gradientTransform="matrix(-19 0 0 17 420.04 -23197.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-5" class="st27" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-5" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="-252.6274" y1="668.4228" x2="-252.2674" y2="668.2068" gradientTransform="matrix(17.2956 0 0 -15.475 4325.3657 10332.9004)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st28" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-5_1_" gradientUnits="userSpaceOnUse" x1="-20.0197" y1="1420.7994" x2="-19.6597" y2="1420.5834" gradientTransform="matrix(19 0 0 -17 539.04 24895.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-5" class="st29" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-63 -732)">
+					
+						<linearGradient id="Polígono_12-6_1_" gradientUnits="userSpaceOnUse" x1="-15.3915" y1="1408.1473" x2="-15.0315" y2="1407.9313" gradientTransform="matrix(-19 0 0 17 -125.96 -23218.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-6" class="st30" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-6_1_" gradientUnits="userSpaceOnUse" x1="-48.0197" y1="1420.7994" x2="-47.6597" y2="1420.5834" gradientTransform="matrix(19 0 0 -17 1085.04 24874.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-6" class="st31" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-6_1_" gradientUnits="userSpaceOnUse" x1="-15.3915" y1="1408.1473" x2="-15.0315" y2="1407.9313" gradientTransform="matrix(-19 0 0 17 -111.96 -23197.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-6" class="st32" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-6" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="-280.6274" y1="668.4228" x2="-280.2674" y2="668.2068" gradientTransform="matrix(17.2956 0 0 -15.475 4809.6431 10332.9004)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st33" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-6_1_" gradientUnits="userSpaceOnUse" x1="-48.0197" y1="1420.7994" x2="-47.6597" y2="1420.5834" gradientTransform="matrix(19 0 0 -17 1071.04 24895.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-6" class="st34" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-203 -691)">
+					
+						<linearGradient id="Polígono_12-7_1_" gradientUnits="userSpaceOnUse" x1="124.6086" y1="1367.1473" x2="124.9685" y2="1366.9313" gradientTransform="matrix(-19 0 0 17 2534.04 -22521.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-7" class="st35" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-7_1_" gradientUnits="userSpaceOnUse" x1="91.9803" y1="1379.7994" x2="92.3403" y2="1379.5834" gradientTransform="matrix(19 0 0 -17 -1574.96 24177.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-7" class="st36" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-7_1_" gradientUnits="userSpaceOnUse" x1="124.6086" y1="1367.1473" x2="124.9685" y2="1366.9313" gradientTransform="matrix(-19 0 0 17 2548.04 -22500.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-7" class="st37" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-7" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="-140.6274" y1="627.4228" x2="-140.2674" y2="627.2068" gradientTransform="matrix(17.2956 0 0 -15.475 2388.2549 9698.4238)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st38" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-7_1_" gradientUnits="userSpaceOnUse" x1="91.9803" y1="1379.7994" x2="92.3403" y2="1379.5834" gradientTransform="matrix(19 0 0 -17 -1588.96 24198.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-7" class="st39" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-175 -691)">
+					
+						<linearGradient id="Polígono_12-8_1_" gradientUnits="userSpaceOnUse" x1="96.6086" y1="1367.1473" x2="96.9685" y2="1366.9313" gradientTransform="matrix(-19 0 0 17 2002.04 -22521.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-8" class="st40" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-8_1_" gradientUnits="userSpaceOnUse" x1="63.9803" y1="1379.7994" x2="64.3403" y2="1379.5834" gradientTransform="matrix(19 0 0 -17 -1042.96 24177.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-8" class="st41" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-8_1_" gradientUnits="userSpaceOnUse" x1="96.6086" y1="1367.1473" x2="96.9685" y2="1366.9313" gradientTransform="matrix(-19 0 0 17 2016.04 -22500.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-8" class="st42" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-8" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="-168.6274" y1="627.4228" x2="-168.2674" y2="627.2068" gradientTransform="matrix(17.2956 0 0 -15.475 2872.5325 9698.4238)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st43" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-8_1_" gradientUnits="userSpaceOnUse" x1="63.9803" y1="1379.7994" x2="64.3403" y2="1379.5834" gradientTransform="matrix(19 0 0 -17 -1056.96 24198.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-8" class="st44" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-147 -691)">
+					
+						<linearGradient id="Polígono_12-9_1_" gradientUnits="userSpaceOnUse" x1="68.6086" y1="1367.1473" x2="68.9685" y2="1366.9313" gradientTransform="matrix(-19 0 0 17 1470.04 -22521.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-9" class="st45" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-9_1_" gradientUnits="userSpaceOnUse" x1="35.9803" y1="1379.7994" x2="36.3403" y2="1379.5834" gradientTransform="matrix(19 0 0 -17 -510.96 24177.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-9" class="st46" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-9_1_" gradientUnits="userSpaceOnUse" x1="68.6086" y1="1367.1473" x2="68.9685" y2="1366.9313" gradientTransform="matrix(-19 0 0 17 1484.04 -22500.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-9" class="st47" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-9" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="-196.6274" y1="627.4228" x2="-196.2674" y2="627.2068" gradientTransform="matrix(17.2956 0 0 -15.475 3356.8103 9698.4238)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st48" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-9_1_" gradientUnits="userSpaceOnUse" x1="35.9803" y1="1379.7994" x2="36.3403" y2="1379.5834" gradientTransform="matrix(19 0 0 -17 -524.96 24198.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-9" class="st49" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-119 -691)">
+					
+						<linearGradient id="Polígono_12-10_1_" gradientUnits="userSpaceOnUse" x1="40.6085" y1="1367.1473" x2="40.9685" y2="1366.9313" gradientTransform="matrix(-19 0 0 17 938.04 -22521.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-10" class="st50" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-10_1_" gradientUnits="userSpaceOnUse" x1="7.9803" y1="1379.7994" x2="8.3403" y2="1379.5834" gradientTransform="matrix(19 0 0 -17 21.04 24177.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-10" class="st51" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-10_1_" gradientUnits="userSpaceOnUse" x1="40.6085" y1="1367.1473" x2="40.9685" y2="1366.9313" gradientTransform="matrix(-19 0 0 17 952.04 -22500.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-10" class="st52" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-10" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_12_" gradientUnits="userSpaceOnUse" x1="-224.6274" y1="627.4228" x2="-224.2674" y2="627.2068" gradientTransform="matrix(17.2956 0 0 -15.475 3841.0879 9698.4238)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st53" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-10_1_" gradientUnits="userSpaceOnUse" x1="7.9803" y1="1379.7994" x2="8.3403" y2="1379.5834" gradientTransform="matrix(19 0 0 -17 7.04 24198.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-10" class="st54" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-91 -691)">
+					
+						<linearGradient id="Polígono_12-11_1_" gradientUnits="userSpaceOnUse" x1="12.6085" y1="1367.1473" x2="12.9685" y2="1366.9313" gradientTransform="matrix(-19 0 0 17 406.04 -22521.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-11" class="st55" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-11_1_" gradientUnits="userSpaceOnUse" x1="-20.0197" y1="1379.7994" x2="-19.6597" y2="1379.5834" gradientTransform="matrix(19 0 0 -17 553.04 24177.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-11" class="st56" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-11_1_" gradientUnits="userSpaceOnUse" x1="12.6085" y1="1367.1473" x2="12.9685" y2="1366.9313" gradientTransform="matrix(-19 0 0 17 420.04 -22500.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-11" class="st57" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-11" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_13_" gradientUnits="userSpaceOnUse" x1="-252.6274" y1="627.4228" x2="-252.2674" y2="627.2068" gradientTransform="matrix(17.2956 0 0 -15.475 4325.3657 9698.4238)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st58" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-11_1_" gradientUnits="userSpaceOnUse" x1="-20.0197" y1="1379.7994" x2="-19.6597" y2="1379.5834" gradientTransform="matrix(19 0 0 -17 539.04 24198.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-11" class="st59" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-63 -691)">
+					
+						<linearGradient id="Polígono_12-12_1_" gradientUnits="userSpaceOnUse" x1="-15.3915" y1="1367.1473" x2="-15.0315" y2="1366.9313" gradientTransform="matrix(-19 0 0 17 -125.96 -22521.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-12" class="st60" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-12_1_" gradientUnits="userSpaceOnUse" x1="-48.0197" y1="1379.7994" x2="-47.6597" y2="1379.5834" gradientTransform="matrix(19 0 0 -17 1085.04 24177.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-12" class="st61" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-12_1_" gradientUnits="userSpaceOnUse" x1="-15.3915" y1="1367.1473" x2="-15.0315" y2="1366.9313" gradientTransform="matrix(-19 0 0 17 -111.96 -22500.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-12" class="st62" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-12" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_14_" gradientUnits="userSpaceOnUse" x1="-280.6274" y1="627.4228" x2="-280.2674" y2="627.2068" gradientTransform="matrix(17.2956 0 0 -15.475 4809.6431 9698.4238)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st63" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-12_1_" gradientUnits="userSpaceOnUse" x1="-48.0197" y1="1379.7994" x2="-47.6597" y2="1379.5834" gradientTransform="matrix(19 0 0 -17 1071.04 24198.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-12" class="st64" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-203 -650)">
+					
+						<linearGradient id="Polígono_12-13_1_" gradientUnits="userSpaceOnUse" x1="124.6086" y1="1326.1473" x2="124.9685" y2="1325.9313" gradientTransform="matrix(-19 0 0 17 2534.04 -21824.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-13" class="st65" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-13_1_" gradientUnits="userSpaceOnUse" x1="91.9803" y1="1338.7994" x2="92.3403" y2="1338.5834" gradientTransform="matrix(19 0 0 -17 -1574.96 23480.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-13" class="st66" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-13_1_" gradientUnits="userSpaceOnUse" x1="124.6086" y1="1326.1473" x2="124.9685" y2="1325.9313" gradientTransform="matrix(-19 0 0 17 2548.04 -21803.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-13" class="st67" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-13" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_15_" gradientUnits="userSpaceOnUse" x1="-140.6274" y1="586.4228" x2="-140.2674" y2="586.2068" gradientTransform="matrix(17.2956 0 0 -15.475 2388.2549 9063.9473)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st68" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-13_1_" gradientUnits="userSpaceOnUse" x1="91.9803" y1="1338.7994" x2="92.3403" y2="1338.5834" gradientTransform="matrix(19 0 0 -17 -1588.96 23501.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-13" class="st69" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-175 -650)">
+					
+						<linearGradient id="Polígono_12-14_1_" gradientUnits="userSpaceOnUse" x1="96.6086" y1="1326.1473" x2="96.9685" y2="1325.9313" gradientTransform="matrix(-19 0 0 17 2002.04 -21824.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-14" class="st70" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-14_1_" gradientUnits="userSpaceOnUse" x1="63.9803" y1="1338.7994" x2="64.3403" y2="1338.5834" gradientTransform="matrix(19 0 0 -17 -1042.96 23480.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-14" class="st71" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-14_1_" gradientUnits="userSpaceOnUse" x1="96.6086" y1="1326.1473" x2="96.9685" y2="1325.9313" gradientTransform="matrix(-19 0 0 17 2016.04 -21803.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-14" class="st72" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-14" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_16_" gradientUnits="userSpaceOnUse" x1="-168.6274" y1="586.4228" x2="-168.2674" y2="586.2068" gradientTransform="matrix(17.2956 0 0 -15.475 2872.5325 9063.9473)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st73" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-14_1_" gradientUnits="userSpaceOnUse" x1="63.9803" y1="1338.7994" x2="64.3403" y2="1338.5834" gradientTransform="matrix(19 0 0 -17 -1056.96 23501.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-14" class="st74" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-147 -650)">
+					
+						<linearGradient id="Polígono_12-15_1_" gradientUnits="userSpaceOnUse" x1="68.6086" y1="1326.1473" x2="68.9685" y2="1325.9313" gradientTransform="matrix(-19 0 0 17 1470.04 -21824.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-15" class="st75" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-15_1_" gradientUnits="userSpaceOnUse" x1="35.9803" y1="1338.7994" x2="36.3403" y2="1338.5834" gradientTransform="matrix(19 0 0 -17 -510.96 23480.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-15" class="st76" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-15_1_" gradientUnits="userSpaceOnUse" x1="68.6086" y1="1326.1473" x2="68.9685" y2="1325.9313" gradientTransform="matrix(-19 0 0 17 1484.04 -21803.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-15" class="st77" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-15" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_17_" gradientUnits="userSpaceOnUse" x1="-196.6274" y1="586.4228" x2="-196.2674" y2="586.2068" gradientTransform="matrix(17.2956 0 0 -15.475 3356.8103 9063.9473)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st78" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-15_1_" gradientUnits="userSpaceOnUse" x1="35.9803" y1="1338.7994" x2="36.3403" y2="1338.5834" gradientTransform="matrix(19 0 0 -17 -524.96 23501.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-15" class="st79" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-119 -650)">
+					
+						<linearGradient id="Polígono_12-16_1_" gradientUnits="userSpaceOnUse" x1="40.6085" y1="1326.1473" x2="40.9685" y2="1325.9313" gradientTransform="matrix(-19 0 0 17 938.04 -21824.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-16" class="st80" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-16_1_" gradientUnits="userSpaceOnUse" x1="7.9803" y1="1338.7994" x2="8.3403" y2="1338.5834" gradientTransform="matrix(19 0 0 -17 21.04 23480.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-16" class="st81" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-16_1_" gradientUnits="userSpaceOnUse" x1="40.6085" y1="1326.1473" x2="40.9685" y2="1325.9313" gradientTransform="matrix(-19 0 0 17 952.04 -21803.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-16" class="st82" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-16" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_18_" gradientUnits="userSpaceOnUse" x1="-224.6274" y1="586.4228" x2="-224.2674" y2="586.2068" gradientTransform="matrix(17.2956 0 0 -15.475 3841.0879 9063.9473)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st83" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-16_1_" gradientUnits="userSpaceOnUse" x1="7.9803" y1="1338.7994" x2="8.3403" y2="1338.5834" gradientTransform="matrix(19 0 0 -17 7.04 23501.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-16" class="st84" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-91 -650)">
+					
+						<linearGradient id="Polígono_12-17_1_" gradientUnits="userSpaceOnUse" x1="12.6085" y1="1326.1473" x2="12.9685" y2="1325.9313" gradientTransform="matrix(-19 0 0 17 406.04 -21824.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-17" class="st85" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-17_1_" gradientUnits="userSpaceOnUse" x1="-20.0197" y1="1338.7994" x2="-19.6597" y2="1338.5834" gradientTransform="matrix(19 0 0 -17 553.04 23480.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-17" class="st86" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-17_1_" gradientUnits="userSpaceOnUse" x1="12.6085" y1="1326.1473" x2="12.9685" y2="1325.9313" gradientTransform="matrix(-19 0 0 17 420.04 -21803.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-17" class="st87" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-17" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_19_" gradientUnits="userSpaceOnUse" x1="-252.6274" y1="586.4228" x2="-252.2674" y2="586.2068" gradientTransform="matrix(17.2956 0 0 -15.475 4325.3657 9063.9473)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st88" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-17_1_" gradientUnits="userSpaceOnUse" x1="-20.0197" y1="1338.7994" x2="-19.6597" y2="1338.5834" gradientTransform="matrix(19 0 0 -17 539.04 23501.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-17" class="st89" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-63 -650)">
+					
+						<linearGradient id="Polígono_12-18_1_" gradientUnits="userSpaceOnUse" x1="-15.3915" y1="1326.1473" x2="-15.0315" y2="1325.9313" gradientTransform="matrix(-19 0 0 17 -125.96 -21824.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-18" class="st90" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-18_1_" gradientUnits="userSpaceOnUse" x1="-48.0197" y1="1338.7994" x2="-47.6597" y2="1338.5834" gradientTransform="matrix(19 0 0 -17 1085.04 23480.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-18" class="st91" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-18_1_" gradientUnits="userSpaceOnUse" x1="-15.3915" y1="1326.1473" x2="-15.0315" y2="1325.9313" gradientTransform="matrix(-19 0 0 17 -111.96 -21803.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-18" class="st92" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-18" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_20_" gradientUnits="userSpaceOnUse" x1="-280.6274" y1="586.4228" x2="-280.2674" y2="586.2068" gradientTransform="matrix(17.2956 0 0 -15.475 4809.6431 9063.9473)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st93" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-18_1_" gradientUnits="userSpaceOnUse" x1="-48.0197" y1="1338.7994" x2="-47.6597" y2="1338.5834" gradientTransform="matrix(19 0 0 -17 1071.04 23501.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-18" class="st94" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-203 -609)">
+					
+						<linearGradient id="Polígono_12-19_1_" gradientUnits="userSpaceOnUse" x1="124.6086" y1="1285.1473" x2="124.9685" y2="1284.9313" gradientTransform="matrix(-19 0 0 17 2534.04 -21127.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-19" class="st95" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-19_1_" gradientUnits="userSpaceOnUse" x1="91.9803" y1="1297.7994" x2="92.3403" y2="1297.5834" gradientTransform="matrix(19 0 0 -17 -1574.96 22783.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-19" class="st96" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-19_1_" gradientUnits="userSpaceOnUse" x1="124.6086" y1="1285.1473" x2="124.9685" y2="1284.9313" gradientTransform="matrix(-19 0 0 17 2548.04 -21106.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-19" class="st97" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-19" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_21_" gradientUnits="userSpaceOnUse" x1="-140.6274" y1="545.4228" x2="-140.2674" y2="545.2068" gradientTransform="matrix(17.2956 0 0 -15.475 2388.2549 8429.4707)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st98" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-19_1_" gradientUnits="userSpaceOnUse" x1="91.9803" y1="1297.7994" x2="92.3403" y2="1297.5834" gradientTransform="matrix(19 0 0 -17 -1588.96 22804.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-19" class="st99" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-175 -609)">
+					
+						<linearGradient id="Polígono_12-20_1_" gradientUnits="userSpaceOnUse" x1="96.6086" y1="1285.1473" x2="96.9685" y2="1284.9313" gradientTransform="matrix(-19 0 0 17 2002.04 -21127.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-20" class="st100" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-20_1_" gradientUnits="userSpaceOnUse" x1="63.9803" y1="1297.7994" x2="64.3403" y2="1297.5834" gradientTransform="matrix(19 0 0 -17 -1042.96 22783.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-20" class="st101" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-20_1_" gradientUnits="userSpaceOnUse" x1="96.6086" y1="1285.1473" x2="96.9685" y2="1284.9313" gradientTransform="matrix(-19 0 0 17 2016.04 -21106.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-20" class="st102" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-20" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_22_" gradientUnits="userSpaceOnUse" x1="-168.6274" y1="545.4228" x2="-168.2674" y2="545.2068" gradientTransform="matrix(17.2956 0 0 -15.475 2872.5325 8429.4707)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st103" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-20_1_" gradientUnits="userSpaceOnUse" x1="63.9803" y1="1297.7994" x2="64.3403" y2="1297.5834" gradientTransform="matrix(19 0 0 -17 -1056.96 22804.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-20" class="st104" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-147 -609)">
+					
+						<linearGradient id="Polígono_12-21_1_" gradientUnits="userSpaceOnUse" x1="68.6086" y1="1285.1473" x2="68.9685" y2="1284.9313" gradientTransform="matrix(-19 0 0 17 1470.04 -21127.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-21" class="st105" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-21_1_" gradientUnits="userSpaceOnUse" x1="35.9803" y1="1297.7994" x2="36.3403" y2="1297.5834" gradientTransform="matrix(19 0 0 -17 -510.96 22783.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-21" class="st106" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-21_1_" gradientUnits="userSpaceOnUse" x1="68.6086" y1="1285.1473" x2="68.9685" y2="1284.9313" gradientTransform="matrix(-19 0 0 17 1484.04 -21106.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-21" class="st107" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-21" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_23_" gradientUnits="userSpaceOnUse" x1="-196.6274" y1="545.4228" x2="-196.2674" y2="545.2068" gradientTransform="matrix(17.2956 0 0 -15.475 3356.8103 8429.4707)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st108" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-21_1_" gradientUnits="userSpaceOnUse" x1="35.9803" y1="1297.7994" x2="36.3403" y2="1297.5834" gradientTransform="matrix(19 0 0 -17 -524.96 22804.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-21" class="st109" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-119 -609)">
+					
+						<linearGradient id="Polígono_12-22_1_" gradientUnits="userSpaceOnUse" x1="40.6085" y1="1285.1473" x2="40.9685" y2="1284.9313" gradientTransform="matrix(-19 0 0 17 938.04 -21127.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-22" class="st110" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-22_1_" gradientUnits="userSpaceOnUse" x1="7.9803" y1="1297.7994" x2="8.3403" y2="1297.5834" gradientTransform="matrix(19 0 0 -17 21.04 22783.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-22" class="st111" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-22_1_" gradientUnits="userSpaceOnUse" x1="40.6085" y1="1285.1473" x2="40.9685" y2="1284.9313" gradientTransform="matrix(-19 0 0 17 952.04 -21106.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-22" class="st112" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-22" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_24_" gradientUnits="userSpaceOnUse" x1="-224.6274" y1="545.4228" x2="-224.2674" y2="545.2068" gradientTransform="matrix(17.2956 0 0 -15.475 3841.0879 8429.4707)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st113" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-22_1_" gradientUnits="userSpaceOnUse" x1="7.9803" y1="1297.7994" x2="8.3403" y2="1297.5834" gradientTransform="matrix(19 0 0 -17 7.04 22804.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-22" class="st114" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-91 -609)">
+					
+						<linearGradient id="Polígono_12-23_1_" gradientUnits="userSpaceOnUse" x1="12.6085" y1="1285.1473" x2="12.9685" y2="1284.9313" gradientTransform="matrix(-19 0 0 17 406.04 -21127.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-23" class="st115" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-23_1_" gradientUnits="userSpaceOnUse" x1="-20.0197" y1="1297.7994" x2="-19.6597" y2="1297.5834" gradientTransform="matrix(19 0 0 -17 553.04 22783.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-23" class="st116" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-23_1_" gradientUnits="userSpaceOnUse" x1="12.6085" y1="1285.1473" x2="12.9685" y2="1284.9313" gradientTransform="matrix(-19 0 0 17 420.04 -21106.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-23" class="st117" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-23" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_25_" gradientUnits="userSpaceOnUse" x1="-252.6274" y1="545.4228" x2="-252.2674" y2="545.2068" gradientTransform="matrix(17.2956 0 0 -15.475 4325.3657 8429.4707)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st118" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-23_1_" gradientUnits="userSpaceOnUse" x1="-20.0197" y1="1297.7994" x2="-19.6597" y2="1297.5834" gradientTransform="matrix(19 0 0 -17 539.04 22804.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-23" class="st119" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-63 -609)">
+					
+						<linearGradient id="Polígono_12-24_1_" gradientUnits="userSpaceOnUse" x1="-15.3915" y1="1285.1473" x2="-15.0315" y2="1284.9313" gradientTransform="matrix(-19 0 0 17 -125.96 -21127.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-24" class="st120" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-24_1_" gradientUnits="userSpaceOnUse" x1="-48.0197" y1="1297.7994" x2="-47.6597" y2="1297.5834" gradientTransform="matrix(19 0 0 -17 1085.04 22783.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-24" class="st121" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-24_1_" gradientUnits="userSpaceOnUse" x1="-15.3915" y1="1285.1473" x2="-15.0315" y2="1284.9313" gradientTransform="matrix(-19 0 0 17 -111.96 -21106.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-24" class="st122" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-24" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_26_" gradientUnits="userSpaceOnUse" x1="-280.6274" y1="545.4228" x2="-280.2674" y2="545.2068" gradientTransform="matrix(17.2956 0 0 -15.475 4809.6431 8429.4707)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st123" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-24_1_" gradientUnits="userSpaceOnUse" x1="-48.0197" y1="1297.7994" x2="-47.6597" y2="1297.5834" gradientTransform="matrix(19 0 0 -17 1071.04 22804.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-24" class="st124" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-203 -568)">
+					
+						<linearGradient id="Polígono_12-25_1_" gradientUnits="userSpaceOnUse" x1="124.6086" y1="1244.1473" x2="124.9685" y2="1243.9313" gradientTransform="matrix(-19 0 0 17 2534.04 -20430.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-25" class="st125" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-25_1_" gradientUnits="userSpaceOnUse" x1="91.9803" y1="1256.7994" x2="92.3403" y2="1256.5834" gradientTransform="matrix(19 0 0 -17 -1574.96 22086.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-25" class="st126" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-25_1_" gradientUnits="userSpaceOnUse" x1="124.6086" y1="1244.1473" x2="124.9685" y2="1243.9313" gradientTransform="matrix(-19 0 0 17 2548.04 -20409.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-25" class="st127" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-25" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_27_" gradientUnits="userSpaceOnUse" x1="-140.6274" y1="504.4228" x2="-140.2674" y2="504.2068" gradientTransform="matrix(17.2956 0 0 -15.475 2388.2549 7794.9941)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st128" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-25_1_" gradientUnits="userSpaceOnUse" x1="91.9803" y1="1256.7994" x2="92.3403" y2="1256.5834" gradientTransform="matrix(19 0 0 -17 -1588.96 22107.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-25" class="st129" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-175 -568)">
+					
+						<linearGradient id="Polígono_12-26_1_" gradientUnits="userSpaceOnUse" x1="96.6086" y1="1244.1473" x2="96.9685" y2="1243.9313" gradientTransform="matrix(-19 0 0 17 2002.04 -20430.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-26" class="st130" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-26_1_" gradientUnits="userSpaceOnUse" x1="63.9803" y1="1256.7994" x2="64.3403" y2="1256.5834" gradientTransform="matrix(19 0 0 -17 -1042.96 22086.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-26" class="st131" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-26_1_" gradientUnits="userSpaceOnUse" x1="96.6086" y1="1244.1473" x2="96.9685" y2="1243.9313" gradientTransform="matrix(-19 0 0 17 2016.04 -20409.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-26" class="st132" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-26" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_28_" gradientUnits="userSpaceOnUse" x1="-168.6274" y1="504.4228" x2="-168.2674" y2="504.2068" gradientTransform="matrix(17.2956 0 0 -15.475 2872.5325 7794.9941)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st133" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-26_1_" gradientUnits="userSpaceOnUse" x1="63.9803" y1="1256.7994" x2="64.3403" y2="1256.5834" gradientTransform="matrix(19 0 0 -17 -1056.96 22107.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-26" class="st134" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-147 -568)">
+					
+						<linearGradient id="Polígono_12-27_1_" gradientUnits="userSpaceOnUse" x1="68.6086" y1="1244.1473" x2="68.9685" y2="1243.9313" gradientTransform="matrix(-19 0 0 17 1470.04 -20430.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-27" class="st135" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-27_1_" gradientUnits="userSpaceOnUse" x1="35.9803" y1="1256.7994" x2="36.3403" y2="1256.5834" gradientTransform="matrix(19 0 0 -17 -510.96 22086.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-27" class="st136" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-27_1_" gradientUnits="userSpaceOnUse" x1="68.6086" y1="1244.1473" x2="68.9685" y2="1243.9313" gradientTransform="matrix(-19 0 0 17 1484.04 -20409.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-27" class="st137" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-27" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_29_" gradientUnits="userSpaceOnUse" x1="-196.6274" y1="504.4228" x2="-196.2674" y2="504.2068" gradientTransform="matrix(17.2956 0 0 -15.475 3356.8103 7794.9941)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st138" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-27_1_" gradientUnits="userSpaceOnUse" x1="35.9803" y1="1256.7994" x2="36.3403" y2="1256.5834" gradientTransform="matrix(19 0 0 -17 -524.96 22107.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-27" class="st139" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-119 -568)">
+					
+						<linearGradient id="Polígono_12-28_1_" gradientUnits="userSpaceOnUse" x1="40.6085" y1="1244.1473" x2="40.9685" y2="1243.9313" gradientTransform="matrix(-19 0 0 17 938.04 -20430.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-28" class="st140" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-28_1_" gradientUnits="userSpaceOnUse" x1="7.9803" y1="1256.7994" x2="8.3403" y2="1256.5834" gradientTransform="matrix(19 0 0 -17 21.04 22086.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-28" class="st141" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-28_1_" gradientUnits="userSpaceOnUse" x1="40.6085" y1="1244.1473" x2="40.9685" y2="1243.9313" gradientTransform="matrix(-19 0 0 17 952.04 -20409.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-28" class="st142" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-28" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_30_" gradientUnits="userSpaceOnUse" x1="-224.6274" y1="504.4228" x2="-224.2674" y2="504.2068" gradientTransform="matrix(17.2956 0 0 -15.475 3841.0879 7794.9941)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st143" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-28_1_" gradientUnits="userSpaceOnUse" x1="7.9803" y1="1256.7994" x2="8.3403" y2="1256.5834" gradientTransform="matrix(19 0 0 -17 7.04 22107.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-28" class="st144" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-91 -568)">
+					
+						<linearGradient id="Polígono_12-29_1_" gradientUnits="userSpaceOnUse" x1="12.6085" y1="1244.1473" x2="12.9685" y2="1243.9313" gradientTransform="matrix(-19 0 0 17 406.04 -20430.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-29" class="st145" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-29_1_" gradientUnits="userSpaceOnUse" x1="-20.0197" y1="1256.7994" x2="-19.6597" y2="1256.5834" gradientTransform="matrix(19 0 0 -17 553.04 22086.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-29" class="st146" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-29_1_" gradientUnits="userSpaceOnUse" x1="12.6085" y1="1244.1473" x2="12.9685" y2="1243.9313" gradientTransform="matrix(-19 0 0 17 420.04 -20409.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-29" class="st147" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-29" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_31_" gradientUnits="userSpaceOnUse" x1="-252.6274" y1="504.4228" x2="-252.2674" y2="504.2068" gradientTransform="matrix(17.2956 0 0 -15.475 4325.3657 7794.9941)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st148" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-29_1_" gradientUnits="userSpaceOnUse" x1="-20.0197" y1="1256.7994" x2="-19.6597" y2="1256.5834" gradientTransform="matrix(19 0 0 -17 539.04 22107.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-29" class="st149" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-63 -568)">
+					
+						<linearGradient id="Polígono_12-30_1_" gradientUnits="userSpaceOnUse" x1="-15.3915" y1="1244.1473" x2="-15.0315" y2="1243.9313" gradientTransform="matrix(-19 0 0 17 -125.96 -20430.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-30" class="st150" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-30_1_" gradientUnits="userSpaceOnUse" x1="-48.0197" y1="1256.7994" x2="-47.6597" y2="1256.5834" gradientTransform="matrix(19 0 0 -17 1085.04 22086.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-30" class="st151" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-30_1_" gradientUnits="userSpaceOnUse" x1="-15.3915" y1="1244.1473" x2="-15.0315" y2="1243.9313" gradientTransform="matrix(-19 0 0 17 -111.96 -20409.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-30" class="st152" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-30" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_32_" gradientUnits="userSpaceOnUse" x1="-280.6274" y1="504.4228" x2="-280.2674" y2="504.2068" gradientTransform="matrix(17.2956 0 0 -15.475 4809.6431 7794.9941)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st153" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-30_1_" gradientUnits="userSpaceOnUse" x1="-48.0197" y1="1256.7994" x2="-47.6597" y2="1256.5834" gradientTransform="matrix(19 0 0 -17 1071.04 22107.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-30" class="st154" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-203 -527)">
+					
+						<linearGradient id="Polígono_12-31_1_" gradientUnits="userSpaceOnUse" x1="124.6086" y1="1203.1473" x2="124.9685" y2="1202.9313" gradientTransform="matrix(-19 0 0 17 2534.04 -19733.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-31" class="st155" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-31_1_" gradientUnits="userSpaceOnUse" x1="91.9803" y1="1215.7994" x2="92.3403" y2="1215.5834" gradientTransform="matrix(19 0 0 -17 -1574.96 21389.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-31" class="st156" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-31_1_" gradientUnits="userSpaceOnUse" x1="124.6086" y1="1203.1473" x2="124.9685" y2="1202.9313" gradientTransform="matrix(-19 0 0 17 2548.04 -19712.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-31" class="st157" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-31" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_33_" gradientUnits="userSpaceOnUse" x1="-140.6274" y1="463.4228" x2="-140.2674" y2="463.2068" gradientTransform="matrix(17.2956 0 0 -15.475 2388.2549 7160.5176)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st158" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-31_1_" gradientUnits="userSpaceOnUse" x1="91.9803" y1="1215.7994" x2="92.3403" y2="1215.5834" gradientTransform="matrix(19 0 0 -17 -1588.96 21410.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-31" class="st159" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-175 -527)">
+					
+						<linearGradient id="Polígono_12-32_1_" gradientUnits="userSpaceOnUse" x1="96.6086" y1="1203.1473" x2="96.9685" y2="1202.9313" gradientTransform="matrix(-19 0 0 17 2002.04 -19733.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-32" class="st160" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-32_1_" gradientUnits="userSpaceOnUse" x1="63.9803" y1="1215.7994" x2="64.3403" y2="1215.5834" gradientTransform="matrix(19 0 0 -17 -1042.96 21389.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-32" class="st161" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-32_1_" gradientUnits="userSpaceOnUse" x1="96.6086" y1="1203.1473" x2="96.9685" y2="1202.9313" gradientTransform="matrix(-19 0 0 17 2016.04 -19712.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-32" class="st162" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-32" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_34_" gradientUnits="userSpaceOnUse" x1="-168.6274" y1="463.4228" x2="-168.2674" y2="463.2068" gradientTransform="matrix(17.2956 0 0 -15.475 2872.5325 7160.5176)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st163" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-32_1_" gradientUnits="userSpaceOnUse" x1="63.9803" y1="1215.7994" x2="64.3403" y2="1215.5834" gradientTransform="matrix(19 0 0 -17 -1056.96 21410.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-32" class="st164" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-147 -527)">
+					
+						<linearGradient id="Polígono_12-33_1_" gradientUnits="userSpaceOnUse" x1="68.6086" y1="1203.1473" x2="68.9685" y2="1202.9313" gradientTransform="matrix(-19 0 0 17 1470.04 -19733.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-33" class="st165" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-33_1_" gradientUnits="userSpaceOnUse" x1="35.9803" y1="1215.7994" x2="36.3403" y2="1215.5834" gradientTransform="matrix(19 0 0 -17 -510.96 21389.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-33" class="st166" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-33_1_" gradientUnits="userSpaceOnUse" x1="68.6086" y1="1203.1473" x2="68.9685" y2="1202.9313" gradientTransform="matrix(-19 0 0 17 1484.04 -19712.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-33" class="st167" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-33" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_35_" gradientUnits="userSpaceOnUse" x1="-196.6274" y1="463.4228" x2="-196.2674" y2="463.2068" gradientTransform="matrix(17.2956 0 0 -15.475 3356.8103 7160.5176)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st168" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-33_1_" gradientUnits="userSpaceOnUse" x1="35.9803" y1="1215.7994" x2="36.3403" y2="1215.5834" gradientTransform="matrix(19 0 0 -17 -524.96 21410.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-33" class="st169" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-119 -527)">
+					
+						<linearGradient id="Polígono_12-34_1_" gradientUnits="userSpaceOnUse" x1="40.6085" y1="1203.1473" x2="40.9685" y2="1202.9313" gradientTransform="matrix(-19 0 0 17 938.04 -19733.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-34" class="st170" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-34_1_" gradientUnits="userSpaceOnUse" x1="7.9803" y1="1215.7994" x2="8.3403" y2="1215.5834" gradientTransform="matrix(19 0 0 -17 21.04 21389.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-34" class="st171" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-34_1_" gradientUnits="userSpaceOnUse" x1="40.6085" y1="1203.1473" x2="40.9685" y2="1202.9313" gradientTransform="matrix(-19 0 0 17 952.04 -19712.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-34" class="st172" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-34" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_36_" gradientUnits="userSpaceOnUse" x1="-224.6274" y1="463.4228" x2="-224.2674" y2="463.2068" gradientTransform="matrix(17.2956 0 0 -15.475 3841.0879 7160.5176)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st173" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-34_1_" gradientUnits="userSpaceOnUse" x1="7.9803" y1="1215.7994" x2="8.3403" y2="1215.5834" gradientTransform="matrix(19 0 0 -17 7.04 21410.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-34" class="st174" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-91 -527)">
+					
+						<linearGradient id="Polígono_12-35_1_" gradientUnits="userSpaceOnUse" x1="12.6085" y1="1203.1473" x2="12.9685" y2="1202.9313" gradientTransform="matrix(-19 0 0 17 406.04 -19733.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-35" class="st175" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-35_1_" gradientUnits="userSpaceOnUse" x1="-20.0197" y1="1215.7994" x2="-19.6597" y2="1215.5834" gradientTransform="matrix(19 0 0 -17 553.04 21389.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-35" class="st176" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-35_1_" gradientUnits="userSpaceOnUse" x1="12.6085" y1="1203.1473" x2="12.9685" y2="1202.9313" gradientTransform="matrix(-19 0 0 17 420.04 -19712.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-35" class="st177" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-35" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_37_" gradientUnits="userSpaceOnUse" x1="-252.6274" y1="463.4228" x2="-252.2674" y2="463.2068" gradientTransform="matrix(17.2956 0 0 -15.475 4325.3657 7160.5176)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st178" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-35_1_" gradientUnits="userSpaceOnUse" x1="-20.0197" y1="1215.7994" x2="-19.6597" y2="1215.5834" gradientTransform="matrix(19 0 0 -17 539.04 21410.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-35" class="st179" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+				<g transform="translate(-63 -527)">
+					
+						<linearGradient id="Polígono_12-36_1_" gradientUnits="userSpaceOnUse" x1="-15.3915" y1="1203.1473" x2="-15.0315" y2="1202.9313" gradientTransform="matrix(-19 0 0 17 -125.96 -19733.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_12-36" class="st180" d="M162.6,728.9l-9.5-17h19L162.6,728.9z"/>
+					
+						<linearGradient id="Polígono_13-36_1_" gradientUnits="userSpaceOnUse" x1="-48.0197" y1="1215.7994" x2="-47.6597" y2="1215.5834" gradientTransform="matrix(19 0 0 -17 1085.04 21389.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_13-36" class="st181" d="M176.6,711.9l9.5,17h-19L176.6,711.9z"/>
+					
+						<linearGradient id="Caminho_46-36_1_" gradientUnits="userSpaceOnUse" x1="-15.3915" y1="1203.1473" x2="-15.0315" y2="1202.9313" gradientTransform="matrix(-19 0 0 17 -111.96 -19712.5996)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Caminho_46-36" class="st182" d="M176.6,749.9l-9.5-17h19L176.6,749.9z"/>
+					<g id="Polígono_15-36" transform="translate(231 753)">
+						
+							<linearGradient id="SVGID_38_" gradientUnits="userSpaceOnUse" x1="-280.6274" y1="463.4228" x2="-280.2674" y2="463.2068" gradientTransform="matrix(17.2956 0 0 -15.475 4809.6431 7160.5176)">
+							<stop  offset="0" style="stop-color:#F83600"/>
+							<stop  offset="1" style="stop-color:#FE8C00"/>
+						</linearGradient>
+						<path class="st183" d="M-31.8-3.6h-17.3l8.6-15.5L-31.8-3.6z"/>
+						<path class="st8" d="M-40.4-18.1l-7.8,14h15.6L-40.4-18.1 M-40.4-20.1l9.5,17h-19L-40.4-20.1z"/>
+					</g>
+					
+						<linearGradient id="Polígono_16-36_1_" gradientUnits="userSpaceOnUse" x1="-48.0197" y1="1215.7994" x2="-47.6597" y2="1215.5834" gradientTransform="matrix(19 0 0 -17 1071.04 21410.4004)">
+						<stop  offset="0" style="stop-color:#F83600"/>
+						<stop  offset="1" style="stop-color:#FE8C00"/>
+					</linearGradient>
+					<path id="Polígono_16-36" class="st184" d="M162.6,732.9l9.5,17h-19L162.6,732.9z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<rect id="Retângulo_30" x="145.1" y="711.9" class="st0" width="17" height="236"/>
+</g>
+<g id="Retângulo_37" transform="translate(101 85)">
+	<rect x="-49.9" y="-20.1" class="st185" width="153" height="238"/>
+	<rect x="-48.4" y="-18.6" class="st186" width="150" height="235"/>
+</g>
+</svg>

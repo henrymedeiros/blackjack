@@ -1,0 +1,91 @@
+*{
+    font-size: 1rem;
+    font-family: 'Poppins';
+    margin:0;
+    padding: 0;
+}
+
+:root {
+    /* color */
+    --table-bg-color:#131018 ;
+    --main-bg-color:#1C1824;
+    --brighter-orange:#FE8C00;
+    --darker-orange:#F83600;
+    --text-color:#BBB4CC;
+    --text-color-light:#D4CBE6;
+    /* text sizes & weight*/
+    --big-title:2.8rem;
+    --small-title:1.5rem;
+    --title:1.25rem;
+
+    --regular:400;
+    --medium:500;
+    --semibold:600;
+
+
+  }
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "t t t t m";
+}
+
+.table{
+    height: 100vh;
+    background-color: var(--table-bg-color);
+    color:var(--text-color);
+    grid-area: t;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+	grid-template-rows: 45% 45% 10%;
+    grid-template-areas: 
+    /* g = game area, htp = how to play area*/
+    "d d d d htp"
+    "p p p p htp"
+    "f f f f f"
+    ;
+}
+
+.table .dealer-cards{
+    grid-area: d;
+}
+
+.table .player-cards{
+    grid-area: p;
+}
+
+
+.table .how-to-play{
+    grid-area: htp;
+}
+
+.table footer{
+    grid-area: f;
+}
+
+
+.table h1{
+    font-size: var(--big-title);
+    font-weight: var(--semibold);
+    margin:0;
+    padding: 0;
+}
+.menu{
+    background-color: var(--darker-orange);
+    grid-area: m;
+}
+
+@media only screen and (max-width: 1366px) {
+    *{
+        font-size: 60%;
+        
+    }
+
+    p{
+        font-size: 1rem;
+    }
+    
+}
