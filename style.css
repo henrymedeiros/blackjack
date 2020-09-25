@@ -29,8 +29,10 @@
     width: 100vw;
     height: 100vh;
     display: grid;
+    grid-template-columns: 4fr 1fr;
     grid-template-areas: 
-    "t t t t m";
+    "t m"
+    ;
 }
 
 .table{
@@ -40,7 +42,7 @@
     grid-area: t;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-	grid-template-rows: 45% 45% 10%;
+	grid-template-rows: 46% 47% 7%;
     grid-template-areas: 
     /* g = game area, htp = how to play area*/
     "d d d d htp"
@@ -60,11 +62,15 @@
 
 .table .how-to-play{
     grid-area: htp;
+    display: flex;
 }
 
-.table footer{
-    grid-area: f;
+.table .how-to-play p{
+    justify-content: flex-end;
+    
 }
+
+
 
 
 .table h1{
@@ -73,14 +79,81 @@
     margin:0;
     padding: 0;
 }
-.menu{
-    background-color: var(--darker-orange);
-    grid-area: m;
+
+.table footer{
+    grid-area: f;
+    background-color:black;
 }
+
+/* ---------------MENU------------ */
+.menu{
+    height: 100vh;
+    background-color: var(--main-bg-color);
+    grid-area: m;
+    display: grid;
+    grid-template-rows:5% 45% 25% 25%;
+    grid-template-columns:100%;
+    color:white;
+}
+
+.menu .nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu .nav p{
+    display: flex;
+}
+
+.menu .player-info{
+    border:2px solid blue;
+    display: grid;
+    grid-template-rows:60% 10% 30%;
+    grid-template-areas: 
+        "m-pp" /* = menu-player picture*/
+        "m-pn" /* = menu-player name*/
+        "m-pd" /* = menu-player descripttion*/
+
+    ;
+    
+}
+
+.menu .player-info .profile-picture{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    grid-area: m-pp;
+    justify-self: center;
+    align-self: center;
+    
+}
+
+.menu .player-info .player-name{
+    justify-self: center;
+    grid-area: m-pn;
+}
+.menu .player-info .player-description{
+    grid-area: m-pd;
+    justify-self: center;
+    width: 80%;
+    text-align: center;
+    font-style: italic;
+}
+
+.menu .data{
+    border:1px solid white;
+}
+
+.menu .buttons{
+    border:2px solid green;
+}
+
+
 
 @media only screen and (max-width: 1366px) {
     *{
-        font-size: 60%;
+        font-size: 75%;
         
     }
 
