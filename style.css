@@ -1,6 +1,7 @@
 *{
     font-size: 1rem;
     font-family: 'Poppins';
+    font-weight: 400;
     margin:0;
     padding: 0;
 }
@@ -21,14 +22,13 @@
     --regular:400;
     --medium:500;
     --semibold:600;
-
-
   }
 
 .container{
     width: 100vw;
     height: 100vh;
     display: grid;
+    
     grid-template-columns: 4fr 1fr;
     grid-template-areas: 
     "t m"
@@ -36,7 +36,8 @@
 }
 
 .table{
-    height: 100vh;
+    
+    max-height: 100vh;
     background-color: var(--table-bg-color);
     color:var(--text-color);
     grid-area: t;
@@ -63,16 +64,16 @@
 .table .how-to-play{
     grid-area: htp;
     display: flex;
-}
-
-.table .how-to-play p{
     justify-content: flex-end;
+    height: 7%;
+    align-items: center;
+    padding-right: 32px;
     
 }
 
-
-
-
+.table .how-to-play p{
+    padding-right: 10px;
+}
 .table h1{
     font-size: var(--big-title);
     font-weight: var(--semibold);
@@ -91,24 +92,27 @@
     background-color: var(--main-bg-color);
     grid-area: m;
     display: grid;
-    grid-template-rows:5% 45% 25% 25%;
+    grid-template-rows:7% 43% 25% 25%;
     grid-template-columns:100%;
     color:white;
+    padding: 0 32px 0 32px;
 }
 
 .menu .nav{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
-.menu .nav p{
-    display: flex;
+.menu .nav .menu-settings img{
+    width: 28px;
+    
 }
 
 .menu .player-info{
     border:2px solid blue;
     display: grid;
-    grid-template-rows:60% 10% 30%;
+    grid-template-rows:55% 10% 35%;
     grid-template-areas: 
         "m-pp" /* = menu-player picture*/
         "m-pn" /* = menu-player name*/
@@ -143,7 +147,38 @@
 
 .menu .data{
     border:1px solid white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
 }
+
+.menu .data .data-area{
+    border:1px solid red;
+    display: grid;
+    grid-template-areas:
+    "t t t "
+    "s tx tx";   
+}
+
+.menu .data .data-area .name{
+    grid-area: t;
+}
+
+.menu .data .data-area .icon{
+    grid-area: s;
+    align-self: end;
+}
+
+.menu .data .data-area .value{
+    grid-area: tx;
+    align-self: center;
+    font-size: var(--small-title);
+    justify-self: center;
+    
+}
+
+
+
 
 .menu .buttons{
     border:2px solid green;
@@ -152,13 +187,36 @@
 
 
 @media only screen and (max-width: 1366px) {
-    *{
-        font-size: 75%;
-        
+    
+    :root{
+    /* text sizes*/
+    --big-title:2.1rem;
+    --small-title:1.2rem;
+    --title:1.25rem;
+    --text:0.75rem;
+    }
+    
+    p{
+        font-size: var(--text);
+    }
+    .table h1{
+        font-size:var(--big-title);
     }
 
-    p{
-        font-size: 1rem;
+    .table .how-to-play img{
+        width: 70%;
+
     }
+    .menu{
+        padding: 0 20px 0 20px;
+    }
+    .menu .nav .menu-settings img{
+        width: 70%;
+    }
+
+    .menu .data .data-area span img{
+        width: 32px;
+    }
+
     
 }
