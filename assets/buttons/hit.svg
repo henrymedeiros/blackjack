@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="56" viewBox="0 0 100 56">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe8c00"/>
+      <stop offset="1" stop-color="#f83600"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_16" data-name="Grupo 16" transform="translate(-1470 -805)">
+    <path id="Caminho_50" data-name="Caminho 50" d="M0,0H100V56H0Z" transform="translate(1470 805)" fill="url(#linear-gradient)"/>
+    <text id="Hit" transform="translate(1503 842)" fill="#fff" font-size="25" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Hit</tspan></text>
+  </g>
+</svg>

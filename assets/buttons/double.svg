@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="184" height="56" viewBox="0 0 184 56">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe8c00"/>
+      <stop offset="1" stop-color="#f83600"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_18" data-name="Grupo 18" transform="translate(-1704 -805)">
+    <rect id="Retângulo_34" data-name="Retângulo 34" width="184" height="56" transform="translate(1704 805)" fill="url(#linear-gradient)"/>
+    <text id="Double" transform="translate(1751 842)" fill="#fff" font-size="25" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Double</tspan></text>
+  </g>
+</svg>

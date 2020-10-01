@@ -19,9 +19,11 @@
     --small-title:1.5rem;
     --title:1.25rem;
 
+    --light:300;
     --regular:400;
     --medium:500;
     --semibold:600;
+    --bold:700;
   }
 
 .container{
@@ -54,10 +56,12 @@
 
 .table .dealer-cards{
     grid-area: d;
+    padding-left:32px;
 }
 
 .table .player-cards{
     grid-area: p;
+    padding-left:32px;
 }
 
 
@@ -84,7 +88,21 @@
 .table footer{
     grid-area: f;
     background-color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px 0 32px;
+    color:white;
+    
 }
+
+.table footer p{
+    font-weight: var(--light) ;
+}
+
+
+
+
 
 /* ---------------MENU------------ */
 .menu{
@@ -125,7 +143,7 @@
 .menu .player-info .profile-picture{
     width: 100px;
     height: 100px;
-    background-color: blueviolet;
+    background-color: var(--darker-orange);
     border-radius: 50%;
     grid-area: m-pp;
     justify-self: center;
@@ -160,6 +178,59 @@
     "s tx tx";   
 }
 
+.menu .data .data-area-alt{
+    border:1px solid red;
+    display: grid;
+    grid-template-areas:
+    "d-name d-name d-name minus plus"
+    "d-icon d-icon d-value d-value d-value";
+       
+}
+
+.menu .data .data-area-alt .name{
+    grid-area: d-name;
+    align-self: start;
+}
+
+.menu .data .data-area-alt .minus-btn{
+    grid-area: minus;
+    background-color: var(--darker-orange);
+    align-self: start;
+    width: 100%;
+    border-radius: 50%;
+    color:white;
+    border:none;
+   
+}
+.menu .data .data-area-alt .plus-btn{
+    grid-area: plus;
+    background-color: var(--darker-orange);
+    align-self: start;
+    width: 100%;
+    border-radius: 50%;
+    color:white;
+    border:none;
+    margin-left: 1px;
+    
+    
+}
+
+.menu .data .data-area-alt .icon{
+    grid-area: d-icon;
+    align-self: end;
+}
+
+.menu .data .data-area-alt .value{
+    grid-area: d-value;
+    align-self: center;
+    font-size: var(--small-title);
+    justify-self: center;
+    
+}
+
+
+
+
 .menu .data .data-area .name{
     grid-area: t;
 }
@@ -177,12 +248,44 @@
     
 }
 
-
-
-
 .menu .buttons{
-    border:2px solid green;
+    border:1px solid green;
+    display: grid; 
+    padding: 16px 0 16px 0;
+    grid-template-columns: calc(30% 30% 40%);
+    grid-template-areas: 
+     "h h1 d"
+     "rg rg rd"
+    ;
+    gap:16px;
+    align-items: center;
 }
+
+.menu .buttons button{
+    border:0;
+    height: 56px;
+    font-weight: var(--medium);
+    background-color: var(--darker-orange);
+    color:white;
+}
+
+.menu .buttons .hit-btn{
+    grid-area: h;
+}
+
+.menu .buttons .hold-btn{
+    grid-area: h1;
+}
+
+.menu .buttons .double-btn{
+    grid-area: d;
+}
+
+.menu .buttons .reset-game-btn{
+    grid-area: rg;
+}
+
+
 
 
 
@@ -217,6 +320,17 @@
     .menu .data .data-area span img{
         width: 32px;
     }
+
+    .menu .data .data-area-alt span img{
+        width: 32px;
+    }
+
+
+    .menu .buttons img{
+        width: 100%;
+    }
+
+
 
     
 }
