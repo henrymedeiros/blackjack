@@ -1,90 +1,178 @@
-*{
-    font-size: 1rem;
-    font-family: 'Poppins';
-    font-weight: 400;
-    margin:0;
-    padding: 0;
+* {
+  font-size: 1rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
-    /* color */
-    --table-bg-color:#131018 ;
-    --main-bg-color:#1C1824;
-    --brighter-orange:#FE8C00;
-    --darker-orange:#F83600;
-    --text-color:#BBB4CC;
-    --text-color-light:#D4CBE6;
-    /* text sizes & weight*/
-    --big-title:2.8rem;
-    --small-title:1.5rem;
-    --title:1.25rem;
+  /* color */
+  --table-bg-color: #131018;
+  --main-bg-color: #1c1824;
+  --brighter-orange: #fe8c00;
+  --darker-orange: #f83600;
+  --text-color: #bbb4cc;
+  --text-color-light: #d4cbe6;
+  /* text sizes & weight*/
+  --big-title: 2.8rem;
+  --small-title: 1.5rem;
+  --title: 1.25rem;
 
-    --light:300;
-    --regular:400;
-    --medium:500;
-    --semibold:600;
-    --bold:700;
-  }
-
-.container{
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    
-    grid-template-columns: 4fr 1fr;
-    grid-template-areas: 
-    "t m"
-    ;
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --semibold: 600;
+  --bold: 700;
 }
 
-.table{
-    
-    max-height: 100vh;
-    background-color: var(--table-bg-color);
-    color:var(--text-color);
-    grid-area: t;
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-	grid-template-rows: 46% 47% 7%;
-    grid-template-areas: 
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+
+  grid-template-columns: 4fr 1fr;
+  grid-template-areas: "t m";
+}
+
+.table {
+  max-height: 100vh;
+  background-color: var(--table-bg-color);
+  color: var(--text-color);
+  grid-area: t;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas: 
     /* g = game area, htp = how to play area*/
     "d d d d htp"
-    "p p p p htp"
-    "f f f f f"
-    ;
+    "p p p p htp";
+  position: relative;
 }
 
-.table .dealer-cards{
-    grid-area: d;
-    padding-left:32px;
+/* DEALER & PLAYER AREA*/
+.table .dealer-area {
+  grid-area: d;
+  padding-left: 32px;
+  width: 100%;
+  
 }
 
-.table .player-cards{
-    grid-area: p;
-    padding-left:32px;
+.table .dealer-area .shell-deck-and-cards,
+.table .player-area .shell-deck-and-cards{
+  display: flex;
+  margin-top: 25px;
+  
+}
+
+.table .dealer-area .shell-deck-and-cards img,
+.table .player-area .shell-deck-and-cards img{
+  max-width:99%;
+  min-height: 99%;
+}
+
+.table .dealer-area .shell-deck-and-cards .deck, 
+.table .dealer-area .shell-deck-and-cards .dealer-cards,
+.table .player-area .shell-deck-and-cards .deck,
+.table .player-area .shell-deck-and-cards .player-cards {
+  width: 160px;
+}
+
+.table .dealer-area .shell-deck-and-cards .deck,
+.table .player-area .shell-deck-and-cards .deck{
+  margin-right: calc(100px - (0.3 * 100px));
+}
+.table .dealer-area .shell-deck-and-cards .deck img{
+  box-shadow: -1rem 0 3rem rgb(0, 0, 0, 0.6);
+}
+.table .dealer-area .shell-deck-and-cards .deck img{
+  box-shadow: -1rem 0 3rem rgb(0, 0, 0, 0.6);
+}
+
+.table .dealer-area .shell-deck-and-cards .deck-copy{
+  position: absolute;
+}
+
+.table .dealer-area .shell-deck-and-cards .deck-copy img{
+  transform:translate(230px,320px);
+  transition: 2s;
+  box-shadow: none;
 }
 
 
-.table .how-to-play{
-    grid-area: htp;
-    display: flex;
-    justify-content: flex-end;
-    height: 7%;
-    align-items: center;
-    padding-right: 32px;
-    
+
+
+.table .dealer-area .shell-deck-and-cards .dealer-cards,
+.table .player-area .shell-deck-and-cards .player-cards{
+  display: flex;
 }
 
-.table .how-to-play p{
-    padding-right: 10px;
-}
-.table h1{
-    font-size: var(--big-title);
-    font-weight: var(--semibold);
-    margin:0;
-    padding: 0;
+.table .dealer-area .shell-deck-and-cards .dealer-cards img,
+.table .player-area .shell-deck-and-cards .player-cards img {
+  box-shadow: -1rem 0 3rem rgb(0, 0, 0, 0.6);
+  border-radius: 16px;
+  transition: 0.25s;
 }
 
+.table .dealer-area .shell-deck-and-cards .dealer-cards img:hover,
+.table .player-area .shell-deck-and-cards .player-cards img:hover{
+  transform: translateY(-11.2px);
+}
+
+.table .dealer-area .shell-deck-and-cards .dealer-cards img:hover~img,
+.table .player-area .shell-deck-and-cards .player-cards img:hover~img{
+  transform: translateX(50px);
+}
+
+.table .dealer-area .shell-deck-and-cards .dealer-cards img:not(:first-child),
+.table .player-area .shell-deck-and-cards .player-cards img:not(:first-child) {
+  margin-left: -50px;
+}
+
+/* PLAYER ONLY AREA */
+
+
+.table .player-area {
+  grid-area: p;
+  padding-left: 32px;
+  width: 100%;
+}
+
+.table .player-area .shell-deck-and-cards .deck{
+  visibility: hidden
+
+}
+
+/* HOW TO PLAY */
+.table .btn-how-to-play {
+  grid-area: htp;
+  display: flex;
+  justify-content: flex-end;
+  height: 7%;
+  align-items: center;
+  padding-right: 32px;
+}
+
+.table .btn-how-to-play p {
+  padding-right: 10px;
+}
+
+.table .dealer-area h1 {
+  font-size: 1.5rem;
+  font-weight: var(--semibold);
+  margin: 0;
+  padding: 0;
+}
+.table .player-area h1 {
+  font-size: 1.5rem;
+  font-weight: var(--semibold);
+  margin: 0;
+  padding: 0;
+}
+
+/* FOOTER */
+
+/*
 .table footer{
     grid-area: f;
     background-color:black;
@@ -98,239 +186,410 @@
 
 .table footer p{
     font-weight: var(--light) ;
+}*/
+
+/* HOW TO PLAY WHEN CLICKED */
+.darker-bg {
+  display: flex;
+  opacity: 0;
+  transition: 0.5s;
+  width: 100vw;
+  height: 100vh;
+  z-index: -9000;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  position: absolute;
+  backdrop-filter: blur(5px);
+}
+
+.show-bg-how-to-play {
+  opacity: 1;
+  z-index: 50;
+  transition: 0.5s;
+}
+
+.btn-how-to-play {
+  cursor: pointer;
+}
+
+.shell-how-to-play {
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.how-to-play {
+  width: 90%;
+  height: 72.5%;
+  background-color: var(--main-bg-color);
+  z-index: 55;
+  border-radius: 20px;
+  display: grid;
+  grid-template-areas:
+    "title title"
+    "rules-left-column rules-right-column";
+  justify-items: center;
+  column-gap: 16px;
+  padding-top: 30px;
+  column-gap: 36px;
+}
+
+.how-to-play .game-rules-title {
+  color: var(--text-color);
+  font-weight: var(--semibold);
+  font-family: "Poppins";
+  font-size: var(--title);
+  grid-area: title;
+}
+
+.how-to-play .rules-left-column {
+  grid-area: rules-left-column;
+  padding-left: 32px;
+}
+
+.how-to-play .rules-left-column h2 {
+  font-weight: var(--semibold);
+}
+.how-to-play .rules-left-column p {
+  margin-bottom: 32px;
+}
+
+.how-to-play .rules-right-column {
+  grid-area: rules-right-column;
+  padding-right: 32px;
+}
+
+.how-to-play .rules-right-column h2 {
+  font-weight: var(--semibold);
+}
+.how-to-play .rules-right-column p {
+  margin-bottom: 32px;
 }
 
 
 
+#test1{
+  display: flex;
+  margin-top: 25px;
+}
+#test1 img{
+  width: 20%;
+  padding-right: 15px;
+}
 
 
 /* ---------------MENU------------ */
-.menu{
-    height: 100vh;
-    background-color: var(--main-bg-color);
-    grid-area: m;
-    display: grid;
-    grid-template-rows:7% 43% 25% 25%;
-    grid-template-columns:100%;
-    color:white;
-    padding: 0 32px 0 32px;
+
+.menu {
+  height: 100vh;
+  background-color: var(--main-bg-color);
+  grid-area: m;
+  display: grid;
+  grid-template-rows: 7% 43% 25% 25%;
+  grid-template-columns: 100%;
+  color: white;
+  padding: 0 32px 0 32px;
 }
 
-.menu .nav{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.menu .nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.menu .nav .menu-settings img{
-    width: 28px;
-    
+.menu .nav .menu-settings img {
+  width: 28px;
 }
 
-.menu .player-info{
-    border:2px solid blue;
-    display: grid;
-    grid-template-rows:55% 10% 35%;
-    grid-template-areas: 
-        "m-pp" /* = menu-player picture*/
-        "m-pn" /* = menu-player name*/
-        "m-pd" /* = menu-player descripttion*/
-
-    ;
-    
+.menu .player-info {
+  border: 2px solid blue;
+  display: grid;
+  grid-template-rows: 45% 15% 15% 25%;
+  grid-template-areas:
+    "m-pp" /* = menu-player picture*/
+    "m-pn" /* = menu-player name*/
+    "m-ps" /* = menu-player name*/
+    "m-pd" /* = menu-player descripttion*/;
 }
 
-.menu .player-info .profile-picture{
-    width: 100px;
-    height: 100px;
-    background-color: var(--darker-orange);
-    border-radius: 50%;
-    grid-area: m-pp;
-    justify-self: center;
-    align-self: center;
-    
+.menu .player-info .profile-picture {
+  width: 100px;
+  height: 100px;
+  background-color: var(--darker-orange);
+  border-radius: 50%;
+  grid-area: m-pp;
+  justify-self: center;
+  align-self: center;
 }
 
-.menu .player-info .player-name{
-    justify-self: center;
-    grid-area: m-pn;
-}
-.menu .player-info .player-description{
-    grid-area: m-pd;
-    justify-self: center;
-    width: 80%;
-    text-align: center;
-    font-style: italic;
+.menu .player-info .player-name {
+  justify-self: center;
+  grid-area: m-pn;
+  font-weight: var(--medium);
 }
 
-.menu .data{
-    border:1px solid white;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+.menu .player-info .player-statistics {
+  justify-self: center;
+  grid-area: m-ps;
+  font-weight: var(--medium);
 }
 
-.menu .data .data-area{
-    border:1px solid red;
-    display: grid;
-    grid-template-areas:
+
+.menu .player-info .player-description {
+  grid-area: m-pd;
+  justify-self: center;
+  width: 80%;
+  text-align: center;
+  font-style: italic;
+}
+
+.menu .data {
+  border: 1px solid white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.menu .data .data-area {
+  border: 1px solid red;
+  display: grid;
+  grid-template-areas:
     "t t t "
-    "s tx tx";   
+    "s tx tx";
 }
 
-.menu .data .data-area-alt{
-    border:1px solid red;
-    display: grid;
-    grid-template-areas:
+.menu .data .data-area-alt {
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr 2fr;
+  grid-template-areas:
     "d-name d-name d-name minus plus"
     "d-icon d-icon d-value d-value d-value";
-       
 }
 
-.menu .data .data-area-alt .name{
-    grid-area: d-name;
-    align-self: start;
+.menu .data .data-area-alt .name {
+  grid-area: d-name;
+  align-self: start;
 }
 
-.menu .data .data-area-alt .minus-btn{
-    grid-area: minus;
-    background-color: var(--darker-orange);
-    align-self: start;
-    width: 100%;
-    border-radius: 50%;
-    color:white;
-    border:none;
-   
+.menu .data .data-area-alt .minus-btn {
+  grid-area: minus;
+  background-color: var(--darker-orange);
+  align-self: start;
+  width: 32px;
+  border-radius: 50%;
+  color: white;
+  border: none;
+  justify-self: end;
 }
-.menu .data .data-area-alt .plus-btn{
-    grid-area: plus;
-    background-color: var(--darker-orange);
-    align-self: start;
-    width: 100%;
-    border-radius: 50%;
-    color:white;
-    border:none;
-    margin-left: 1px;
-    
-    
-}
-
-.menu .data .data-area-alt .icon{
-    grid-area: d-icon;
-    align-self: end;
+.menu .data .data-area-alt .plus-btn {
+  grid-area: plus;
+  background-color: var(--darker-orange);
+  align-self: start;
+  width: 100%;
+  border-radius: 50%;
+  color: white;
+  border: none;
+  margin-left: 1px;
+  width: 32px;
+  justify-self: end;
 }
 
-.menu .data .data-area-alt .value{
-    grid-area: d-value;
-    align-self: center;
-    font-size: var(--small-title);
-    justify-self: center;
-    
+.menu .data .data-area-alt .icon {
+  grid-area: d-icon;
+  align-self: end;
 }
 
-
-
-
-.menu .data .data-area .name{
-    grid-area: t;
+.menu .data .data-area-alt .value {
+  grid-area: d-value;
+  align-self: center;
+  font-size: var(--small-title);
+  justify-self: center;
 }
 
-.menu .data .data-area .icon{
-    grid-area: s;
-    align-self: end;
+.menu .data .data-area .name {
+  grid-area: t;
 }
 
-.menu .data .data-area .value{
-    grid-area: tx;
-    align-self: center;
-    font-size: var(--small-title);
-    justify-self: center;
-    
+.menu .data .data-area .icon {
+  grid-area: s;
+  align-self: end;
 }
 
-.menu .buttons{
-    border:1px solid green;
-    display: grid; 
-    padding: 16px 0 16px 0;
-    grid-template-columns: calc(30% 30% 40%);
-    grid-template-areas: 
-     "h h1 d"
-     "rg rg rd"
-    ;
-    gap:16px;
-    align-items: center;
+.menu .data .data-area .value {
+  grid-area: tx;
+  align-self: center;
+  font-size: var(--small-title);
+  justify-self: center;
 }
 
-.menu .buttons button{
-    border:0;
-    height: 56px;
-    font-weight: var(--medium);
-    background-color: var(--darker-orange);
-    color:white;
+.menu .buttons {
+  border: 1px solid green;
+  display: grid;
+  padding: 16px 0 16px 0;
+  grid-template-columns: calc(30% 30% 40%);
+  grid-template-areas:
+    "h h1 d"
+    "rg rg rd";
+  gap: 12px;
+  align-items: center;
 }
 
-.menu .buttons .hit-btn{
-    grid-area: h;
+.menu .buttons button {
+  border: 0;
+  height: 56px;
+  font-weight: var(--medium);
+  background-color: var(--darker-orange);
+  color: white;
 }
 
-.menu .buttons .hold-btn{
-    grid-area: h1;
+.menu .buttons .hit-btn {
+  grid-area: h;
 }
 
-.menu .buttons .double-btn{
-    grid-area: d;
+.menu .buttons .hold-btn {
+  grid-area: h1;
 }
 
-.menu .buttons .reset-game-btn{
-    grid-area: rg;
+.menu .buttons .double-btn {
+  grid-area: d;
 }
 
+.menu .buttons .reset-game-btn {
+  grid-area: rg;
+}
 
+.edit-info {
+  height: 100vh;
+  background-color: var(--main-bg-color);
+  grid-area: m;
+  display: none;
+  grid-template-columns: 100%;
+  color: white;
+  padding: 0 32px 0 32px;
+}
 
+.show-edit-info {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    var(--brighter-orange),
+    var(--darker-orange)
+  );
+}
 
+.edit-info .nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 7%;
+}
+
+.edit-info .nav .menu-settings img {
+  width: calc(0.7 * 23px);
+  padding-top: 11px;
+}
+
+.edit-info .p,
+.edit-info label,
+.edit-info input {
+  font-size: var(--text);
+}
+
+.edit-info label {
+  font-weight: var(--medium);
+}
+
+.edit-info input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  padding-bottom: 2.5px;
+  color: white;
+  margin-bottom: calc(55px - (0.3 * 55px));
+}
+
+.edit-info ::placeholder {
+  color: white;
+  font-size: var(--small-text);
+  margin-bottom: 100px;
+}
+
+.edit-info .upload-img-title {
+  text-align: center;
+  font-weight: var(--medium);
+  margin-top: 25px;
+  margin-bottom: calc(21px - (0.3 * 21px));
+}
+
+.edit-info img {
+  width: 40%;
+  align-self: center;
+  margin-bottom: calc(21px - (0.3 * 21px));
+}
+
+.edit-info .upload-img-description {
+  text-align: center;
+  font-weight: var(--regular);
+  margin-bottom: calc(83px - (0.3 * 83px));
+}
+
+.edit-info button {
+  border-radius: 28px;
+  border: none;
+  background-color: white;
+  color: var(--darker-orange);
+  padding: 6px 0 6px 0;
+  font-weight: var(--medium);
+}
 
 @media only screen and (max-width: 1366px) {
-    
-    :root{
+  :root {
     /* text sizes*/
-    --big-title:2.1rem;
-    --small-title:1.2rem;
-    --title:1.25rem;
-    --text:0.75rem;
-    }
-    
-    p{
-        font-size: var(--text);
-    }
-    .table h1{
-        font-size:var(--big-title);
-    }
+    --big-title: 2.1rem;
+    --small-title: 1.2rem;
+    --title: 1.25rem;
+    --text: 0.75rem;
+    --small-text: 0.7rem;
+  }
 
-    .table .how-to-play img{
-        width: 70%;
+  p {
+    font-size: var(--text);
+  }
+  .table h1 {
+    font-size: var(--big-title);
+  }
 
-    }
-    .menu{
-        padding: 0 20px 0 20px;
-    }
-    .menu .nav .menu-settings img{
-        width: 70%;
-    }
+  .table .how-to-play img {
+    width: 70%;
+  }
+  .menu {
+    padding: 0 20px 0 20px;
+  }
+  .menu .nav .menu-settings img {
+    width: 70%;
+  }
 
-    .menu .data .data-area span img{
-        width: 32px;
-    }
+  .menu .data .data-area span img {
+    width: 32px;
+  }
 
-    .menu .data .data-area-alt span img{
-        width: 32px;
-    }
+  .menu .data .data-area-alt span img {
+    width: 32px;
+  }
 
+  .menu .data .data-area-alt .minus-btn {
+    width: 25px;
+  }
 
-    .menu .buttons img{
-        width: 100%;
-    }
+  .menu .data .data-area-alt .plus-btn {
+    width: 25px;
+  }
 
-
-
-    
+  .menu .buttons img {
+    width: 100%;
+  }
 }

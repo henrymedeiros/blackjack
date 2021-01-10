@@ -1,114 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Blackjack</title>
-
     <!-- Imports -->
+
     <!-- Style -->
     <link rel="stylesheet" href="style.css">
     <!-- Font  -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
+
+
     <div class="container">
         <div class="table">
+            <div id="bg-how-to-play" class="darker-bg">
+                <div class="shell-how-to-play">
+                    <div class="how-to-play">
+                        <h1 class="game-rules-title "> Game Rules </h1>
+                        <div class="rules-left-column">
+                            <h2 class="rule-title">GOAL</h2>
+                            <p class="rule-description">
+                                Beat the dealer by getting a hand as close to 21 as possible, without going over 21. A
+                                blackjack occurs when you get one ace and one 10 point card, without having split the
+                                deck first.
+                            </p>
+                            <h2 class="rule-title">GAMEPLAY</h2>
+                            <p class="rule-description"> and 2 cards to you. The dealer's second card will be played
+                                face down. You can choose to either hit (receive more cards) or stand (move on to the
+                                next hand). You can hit as many times as you choose so long as your deck is under 21.
+                            </p>
+                            <h2 class="rule-title">CARD VALUES</h2>
+                            <p class="rule-description">
+                                Queens, Kings, and Jacks are worth 10, pip cards are worth their face value, but Aces
+                                can be worth either 11 or 1. In this game, Aces have a default value is 11 unless you go
+                                over 21 on your hand.
+                            </p>
+                        </div>
+                        <div class="rules-right-column">
+                            <h2 class=rule-title>BETTING</h2>
+                            <p class="rule-description">
+                                Bets must be placed prior to playing. After receiving your first 2 cards, you can choose
+                                to double down (double your original bet). After your next move, you can no longer
+                                choose to double down.
+                            </p>
+                            <h2 class=rule-title>PAYOUT</h2>
+                            <p class="rule-description">
+                                Payout is 1:1 unless you get a blackjack. For a blackjack, payout is 3:2.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-            
+            </div>
 
-                <div class="dealer-cards">
+
+            <div class="dealer-area">
+                <div class="dealer-name">
                     <h1>Dealer</h1>
                 </div>
-    
-                
-    
-                <div class="player-cards">
-                    <h1>Player</h1>
+                <div class="shell-deck-and-cards">
+                    <div class="deck">
+                        <img src="assets/cards/back.svg">
+                    </div>
+                    <div id="deck-copy" class="deck deck-copy">
+                    </div>
+                    <div class="dealer-cards">
+                        <img src="assets/cards/2.svg">
+                        <img src="assets/cards/2.svg">
+                        <img src="assets/cards/2.svg">
+                    </div>
+                    
+                </div>      
+            </div>
+
+
+            <div class="player-area">
+                <div class="player-name">
+                    <h1 id="player-name">Player</h1> 
                 </div>
-           
-            <div class="how-to-play">
-               
-                <p>How to play</p> 
+                <div class="shell-deck-and-cards">
+                    <div class="deck">
+                        <img src="assets/cards/back.svg">
+                    </div>
+                    <div id="player-cards" class="player-cards">
+                    </div>
+                </div>      
+            </div>
+
+
+            <div class="btn-how-to-play">
+
+                <p id="how-to-play">How to play</p>
                 <span>
                     <img src="assets/icons/htp-icon.png" alt="">
                 </span>
             </div>
 
-            <footer>
+            <!--<footer>
                 <p class="my-name">Author: Henry Medeiros </p>
                 <p class="credits">Icons made by Freepik from Flaticon.com </p>
-            </footer>
+            </footer>-->
         </div>
 
 
-
+        <!-- HIDED CONTENT-->
 
         <!-- MENU SIDEBAR -->
-        <div class="menu">
+
+        <div id="menu" class="menu">
+
             <!-- NAV -->
-            <div class="nav">
-                <div class="menu-settings">
+            <div id="nav" class="nav">
+                <div id="setting-btn" class="menu-settings">
                     <img src="assets/icons/settings-icon.png">
                 </div>
-                    
             </div>
             <!--Player Area-->
-            <div class="player-info">
+            <div id="player-info" class="player-info">
                 <div class="profile-picture">
-                    
+
                 </div>
 
                 <p class="player-name">Player Name</p>
-                <p class="player-description"> 
-                    " Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsum molestiae quaerat " 
+                <p class="player-statistics">WINS: 100 | LOSSES: 0 | DRAWS: 0</p>
+                <p class="player-description">
+                    "I'm a winner!"
                 </p>
             </div>
 
             <!-- DATA INFO -->
-            <div class="data">
+            <div id="data" class="data">
 
-                <div class="data-area">
+                <div class="data-area" id="yourChips">
                     <p class="name">Your Chips</p>
-                    <span class="icon"> 
+                    <span class="icon">
                         <img src="assets/icons/poker-chip.png" alt="">
                     </span>
-                    <p class="value">300</p>
+                    <p id="yourChips-value" class="value"></p>
 
                 </div>
-                <div class="data-area-alt">
+                <div class="data-area-alt" id="currentBet">
                     <p class="name">Current Bet</p>
-                    <button class="minus-btn">-</button> 
-                    <button class="plus-btn"> + </button>
-                    <span class="icon"> 
+                    <button id="minus-btn" class="minus-btn">-</button>
+                    <button id="plus-btn" class="plus-btn"> + </button>
+                    <span class="icon">
                         <img src="assets/icons/current-bet.png" alt="">
                     </span>
-                    <p class="value">50</p>
+                    <p id="currentBet-value" class="value"></p>
                 </div>
 
-                <div class="data-area">
+                <div class="data-area" id="record">
                     <p class="name">Your Record</p>
-                    <span class="icon"> 
+                    <span class="icon">
                         <img src="assets/icons/record.png" alt="">
                     </span>
-                    <p class="value">1000</p>
+                    <p id="record-value" class="value"></p>
 
                 </div>
 
-                <div class="data-area">
+                <div class="data-area" id="winStreak">
                     <p class="name">Best Win Streak</p>
-                    <span class="icon"> 
-                    <img src="assets/icons/win-streak-max.png" alt="">
+                    <span class="icon">
+                        <img src="assets/icons/win-streak-max.png" alt="">
                     </span>
-                    <p class="value">1000</p>
+                    <p id="winStreak-value" class="value"></p>
                 </div>
 
             </div>
-            <div class="buttons">  
-                <button class="hit-btn">
-                    Hit
+            <div id="buttons" class="buttons">
+                <button id="hit-btn" class="hit-btn">
+                    ‏‏‎ ‎ Hit‎‎‎‎‏‏‎ ‎
                 </button>
                 <button class="hold-btn">
                     Hold
@@ -119,15 +186,38 @@
                 <button class="reset-game-btn">
                     Reset Game
                 </button>
-                <button class="reset-data-btn">
+                <button id="reset-data" class="reset-data-btn">
                     Reset Data
                 </button>
             </div>
-        
+
         </div>
-        
+
+        <!-- EDIT INFO SIDEBAR -->
+        <div id="edit-info" class="edit-info">
+            <div id="nav" class="nav">
+                <div id="close-btn" class="menu-settings">
+                    <img src="assets/icons/close.png">
+                </div>
+            </div>
+
+            <form id="register">
+                <label> Your name </label><input placeholder="Type your name here...">
+                <label> Description, Goal or Lucky Said </label><input placeholder="Type anything here...">
+            </form>
+            <h3 class="upload-img-title">Upload your image</h3>
+            <img src="assets/icons/upload.png">
+            <p class="upload-img-description">Your image must be at least
+                150 x 150 pixels</p>
+            <button type="submit" form="form1" value="Submit">Submit</button>
+        </div>
+
     </div>
-    
+
 </body>
+<script src="game.js" type="module"></script>
 <script src="scripts.js" type="module"></script>
+<script src="deck.js" type="module"></script>
+
+
 </html>
