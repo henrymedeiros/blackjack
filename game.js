@@ -1,7 +1,6 @@
 import { deck } from "./deck.js";
-// HIT BUTTON
 
-let hitBtn = document.getElementById("hit-btn");
+
 let deckIndex = 0;
 let currentCardValue = 0;
 let hitClickCounter = 0;
@@ -54,12 +53,11 @@ plusBtn.onclick = function () {
    plus();
 };
 
-
+// HIT BUTTON
 // HIT BUTTON FUNCTIONS 
+let hitBtn = document.getElementById("hit-btn");
 let cardImagesArray = [];
 let arrayCounter = 0;
-
-
 
 function hit() {
 
@@ -99,7 +97,15 @@ hitBtn.onclick = function () {
 };
 
 let resetDataBtn = document.getElementById("reset-data");
+
 function resetData() {
+   currentChips = 500;
+   currentBet= 0;
+   record= 0;
+   winStreak =0;
+}
+
+function resetDataUI() {
    currentChipsField.innerHTML = 500;
    currentBetField.innerHTML = 0;
    recordField.innerHTML = 0;
@@ -107,6 +113,7 @@ function resetData() {
 }
 
 resetDataBtn.onclick = function () {
+   resetDataUI();
    resetData();
 };
 
