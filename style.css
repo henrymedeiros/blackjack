@@ -462,6 +462,120 @@
   grid-area: rg;
 }
 
+/* HIDED CONTENT */
+
+/* RESULT SCREEN */
+.result-screen{
+  grid-area: t;
+  height: 100vh;
+  z-index: 10;
+  background: url(assets/result-background.png) no-repeat; 
+  background-size: 100%;
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.result-content{
+  background-color:#1C1824;
+  width:  calc(1094px - (0.3 * 1094px));
+  height:  calc(592px - (0.3 * 592px));
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.result-screen .result-title{
+  font-size: calc(60px - (0.3 * 60px));
+  font-weight: var(--semibold);
+  margin-top: 36px;
+}
+
+.result-screen .result-grid{
+  /*border: 1px solid green;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:calc(30px - (0.3 * 45px));
+}
+
+.result-label{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:20px 0px;
+}
+
+.result-screen .result-content .result-label .name {
+  font-size: calc(45px - (0.3 * 45px));
+  font-weight: var(--medium);
+}
+
+.result-square{
+  width: calc(80px - (0.3 * 80px));
+  height: calc(80px - (0.3 * 80px));
+  background-color: #272031;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  margin-left: 15px;
+}
+
+.result-square span{
+  font-size: calc(30px - (0.3 * 30px));
+  font-weight: var(--semibold);
+}
+
+
+.bets{
+  width: calc(420px - (0.3 * 420px));
+  height: calc(188px - (0.3 * 188px));
+  background-color: #272031;
+  margin-left: 40px;
+  border-radius: 4px ;
+  display: grid;
+  grid-template-columns:25% 25% 25% 25%;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 0px 20px;
+}
+
+.bets .next-bet{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bets .next-bet img{
+  width: 80%;
+}
+
+.bets .next-bet p{
+  margin-top: 10px;
+  font-size: calc(30px - (0.3 * 30px));
+  font-weight: var(--medium);
+}
+
+.result-play-again{
+  background-color: var(--darker-orange);
+  color: #fff;
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  border:none;
+  margin-top: 20px
+}
+
+
+
+
+/* EDIT INFO SIDEBAR */
 .edit-info {
   height: 100vh;
   background-color: var(--main-bg-color);
@@ -545,6 +659,8 @@
   padding: 6px 0 6px 0;
   font-weight: var(--medium);
 }
+
+
 
 @media only screen and (max-width: 1366px) {
   :root {

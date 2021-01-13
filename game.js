@@ -3,41 +3,46 @@ import { deck } from "./deck.js";
 
 let deckIndex = 0;
 let currentCardValue = 0;
-let hitClickCounter = 0;
 
 let currentChips = 500;
 let currentBet = 0;
 let record = 0;
 let winstreak = 0;
 
-// rendering initial data
+// gatheirng elements
 
+// FIELDS
 let currentChipsField = document.getElementById("yourChips-value");
-currentChipsField.innerHTML = currentChips;
-
 let currentBetField = document.getElementById("currentBet-value");
-currentBetField.innerHTML = currentBet;
-
 let recordField = document.getElementById("record-value");
-recordField.innerHTML = record;
-
 let winStreakField = document.getElementById("winStreak-value");
-winStreakField.innerHTML = winstreak;
-
-// end rendering
-
-//  BET BUTTONS
-
+// BUTTONS
 let minusBtn = document.getElementById("minus-btn");
 let plusBtn = document.getElementById("plus-btn");
+let hitBtn = document.getElementById("hit-btn");
+
+function initializeDataUI() {
+   currentChipsField.innerHTML = currentChips;
+   currentBetField.innerHTML = currentBet;
+   recordField.innerHTML = record;
+   winStreakField.innerHTML = winstreak;
+}
+
+
+initializeDataUI();
+
 
 // MINUS BTN
-function minus() {
+function minus(minusBtn) {
    if (currentBet >= 50) {
       currentBet -= 50;
       currentBetField.innerHTML = currentBet;
    }
 }
+
+minusBtn.onclick = function () {
+   minus();
+};
 // PLUS BUTTON
 function plus() {
    if (currentBet < currentChips) {
@@ -46,21 +51,16 @@ function plus() {
    }
 }
 
-minusBtn.onclick = function () {
-   minus();
-};
 plusBtn.onclick = function () {
    plus();
 };
 
-// HIT BUTTON
+
 // HIT BUTTON FUNCTIONS 
-let hitBtn = document.getElementById("hit-btn");
 let cardImagesArray = [];
 let arrayCounter = 0;
 
 function hit() {
-
    // Checking bet conditions
    // 1 - Has placed bet?
    /*if(currentBet==0){
