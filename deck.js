@@ -26,9 +26,8 @@ function shuffle(deck){
     return deck;
 }
 
-shuffle(deck);
 
 // console.log(shuffle(deck));
 
-export {deck};
+export {deck, shuffle};
 // END OF DECK BEHAVIOR

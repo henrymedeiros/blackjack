@@ -61,7 +61,7 @@
 
 
             <div class="dealer-area">
-                <div class="dealer-name">
+                <div id="dealer-name" class="dealer-name">
                     <h1>Dealer</h1>
                 </div>
                 <div class="shell-deck-and-cards">
@@ -70,10 +70,7 @@
                     </div>
                     <div id="deck-copy" class="deck deck-copy">
                     </div>
-                    <div class="dealer-cards">
-                        <img src="assets/cards/2.svg">
-                        <img src="assets/cards/2.svg">
-                        <img src="assets/cards/2.svg">
+                    <div id="dealer-cards" class="dealer-cards">
                     </div>
                     
                 </div>      
@@ -114,7 +111,7 @@
         <!-- RESULT SCREEN -->
         <div id="result-screen" class="result-screen">
             <div class="result-content">
-                <h1 class="result-title"> You win</h1>
+                <h1 id="result-title" class="result-title"></h1>
                 <p class="result-phrase"> Lorem ipsum dolor sit amet </p>
                 <div class="result-grid">
                 
@@ -130,7 +127,7 @@
                         <div class="result-label">
                             <h1 class="name"> Player</h1>
                             <div class="result-square">
-                                <span id="player-final-score">21</span>
+                                <span id="player-final-score">0</span>
                             </div> 
                         
                         </div>
@@ -231,7 +228,7 @@
                 <button id="hit-btn" class="hit-btn">
                     ‏‏‎ ‎ Hit‎‎‎‎‏‏‎ ‎
                 </button>
-                <button class="hold-btn">
+                <button id="hold-btn" class="hold-btn">
                     Hold
                 </button>
                 <button class="double-btn">
