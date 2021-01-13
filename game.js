@@ -102,7 +102,7 @@ function check(){
    
       hitBtn.disabled = true;
       setTimeout(showResultScreen, 1000);
-   
+    
    }
    // Blackjack
    if (currentCardValue == 21) {
