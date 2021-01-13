@@ -16,10 +16,16 @@ let currentChipsField = document.getElementById("yourChips-value");
 let currentBetField = document.getElementById("currentBet-value");
 let recordField = document.getElementById("record-value");
 let winStreakField = document.getElementById("winStreak-value");
+let playerFinalScoreField = document.getElementById("player-final-score");
+
 // BUTTONS
 let minusBtn = document.getElementById("minus-btn");
 let plusBtn = document.getElementById("plus-btn");
 let hitBtn = document.getElementById("hit-btn");
+let resetDataBtn = document.getElementById("reset-data");
+let playAgainBtn = document.getElementById("play-again-btn");
+// SCREENS
+let resultScreen = document.getElementById("result-screen");
 
 function initializeDataUI() {
    currentChipsField.innerHTML = currentChips;
@@ -55,6 +61,11 @@ plusBtn.onclick = function () {
    plus();
 };
 
+// Result screen
+function showResultScreen(){
+   resultScreen.style.visibility = "visible";
+}
+
 
 // HIT BUTTON FUNCTIONS 
 let cardImagesArray = [];
@@ -78,11 +89,20 @@ function hit() {
       
    }
    deckIndex++;
+}
+
+function check(){
    // Self Lose
    if (currentCardValue > 21) {
       document.getElementById("player-name").innerHTML += " - You lose!";
       currentChips = currentChips - currentBet;
       currentChipsField.innerHTML = currentChips;
+   
+      playerFinalScoreField.innerHTML = currentCardValue;
+   
+      hitBtn.disabled = true;
+      setTimeout(showResultScreen, 1000);
+   
    }
    // Blackjack
    if (currentCardValue == 21) {
@@ -90,14 +110,44 @@ function hit() {
       currentChips = currentChips + currentBet;
       currentChipsField.innerHTML = currentChips;
    }
+   // Lose to the house
 }
+
+
 
 hitBtn.onclick = function () {
    hit();
+   check();
 };
 
-let resetDataBtn = document.getElementById("reset-data");
 
+
+// PLAY AGAIN
+function playAgain(){
+   // clearing values 
+   deckIndex = 0;
+   cardImagesArray = [];
+   arrayCounter = 0;
+   currentCardValue = 0;
+   
+   hitBtn.disabled = false;
+
+   // clearing UI
+   let removeChilds = function (node) {
+      let last;
+      while (last = document.getElementById("player-cards").lastChild){
+         document.getElementById("player-cards").removeChild(last);
+      }
+   };
+   removeChilds();
+   document.getElementById("player-name").innerHTML = "Player"
+   resultScreen.style.visibility = "hidden";
+   
+}
+
+playAgainBtn.onclick = function () {playAgain();};
+
+// RESET DATA
 function resetData() {
    currentChips = 500;
    currentBet= 0;
