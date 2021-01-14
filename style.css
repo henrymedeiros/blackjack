@@ -157,36 +157,17 @@
   padding-right: 10px;
 }
 
-.table .dealer-area h1 {
+
+.table .player-area h1, 
+.table .player-area span,
+.table .dealer-area h1,
+.table .dealer-area  span{
   font-size: 1.5rem;
   font-weight: var(--semibold);
   margin: 0;
   padding: 0;
 }
-.table .player-area h1 {
-  font-size: 1.5rem;
-  font-weight: var(--semibold);
-  margin: 0;
-  padding: 0;
-}
 
-/* FOOTER */
-
-/*
-.table footer{
-    grid-area: f;
-    background-color:black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 32px 0 32px;
-    color:white;
-    
-}
-
-.table footer p{
-    font-weight: var(--light) ;
-}*/
 
 /* HOW TO PLAY WHEN CLICKED */
 .darker-bg {

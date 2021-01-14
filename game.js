@@ -91,13 +91,19 @@ let dealerArrayCounter = 0;
 
 // DRAWS
 function playerDrawCard() {
+   // ACE CHECK
+   if(playerCurrentCardValue+deck[deckIndex].value>21 && deck[deckIndex].value==11){
+      deck[deckIndex].value=1;
+      console.log("CONVERTED ACE")
+      
+   }
    
    playerCurrentCardValue = playerCurrentCardValue + deck[deckIndex].value;
    let image = document.createElement("img");
    image.src = deck[deckIndex].img;
    playerCardsImagesArray.push(image);
 
-   document.getElementById('player-name').innerHTML = playerCurrentCardValue;
+   document.getElementById('player-name-span').innerHTML = playerCurrentCardValue;
    playerHand.appendChild(playerCardsImagesArray[playerArrayCounter]);
    playerArrayCounter++;
    for (let i = 0; i <playerArrayCounter; i++) {
@@ -106,27 +112,52 @@ function playerDrawCard() {
    deckIndex++;
 }
 
+let cardToBeTurnedID;
+
 function dealerDrawCard() {
-   
+   // CONVER ACE
+   if(dealerCurrentCardValue+deck[deckIndex].value>21 && deck[deckIndex].value==11){
+      deck[deckIndex].value=1;
+      console.log("CONVERTED ACE")  
+   }
+
    dealerCurrentCardValue = dealerCurrentCardValue + deck[deckIndex].value;
    let image = document.createElement("img");
    image.src = deck[deckIndex].img;
+   image.id = deckIndex;
    dealerCardsImagesArray.push(image);
-
-   document.getElementById('dealer-name').innerHTML = dealerCurrentCardValue;
+   
+   document.getElementById('dealer-name-span').innerHTML = dealerCurrentCardValue;
    dealerHand.appendChild(dealerCardsImagesArray[dealerArrayCounter]);
    dealerArrayCounter++;
    for (let i = 0; i < dealerArrayCounter; i++) {
       dealerHand.appendChild(dealerCardsImagesArray[i]);
    }
    deckIndex++;
+
+}
+
+function turnCardDown(){
+   let image = document.getElementById("2");
+   image.src = "assets/cards/back.svg"
+}
+
+function turnCardUp(){
+   let image = document.getElementById("2");
+   image.src = deck[2].img;
 }
 
 function dealHands(){
+   
    for(let i=0;i<2;i++){
       dealerDrawCard();
+      if(i==1){
+         turnCardDown();
+         document.getElementById('dealer-name-span').innerHTML = dealerCurrentCardValue-  deck[2].value;
+      }
       playerDrawCard();
    }
+
 
 }
 
@@ -136,43 +167,62 @@ let held = false;
 holdBtn.onclick = function () {
    holdBtn.disabled = true;
    held = true;
+   turnCardUp();
    check();
 
 };
 
-function winner(){
+function winner(blackjackWin){
    hitBtn.disabled = true;
    playerFinalScoreField.innerHTML = playerCurrentCardValue;
    dealerFinalScoreField.innerHTML = dealerCurrentCardValue;
+   if(blackjackWin===1){
+      resultTitle.innerHTML = 'Blackjack!';
+   }
+   else{
+      resultTitle.innerHTML = 'You win';
+   }
    setTimeout(showResultScreen, 1000);
 }
+
+function draw(){
+   hitBtn.disabled = true;
+   playerFinalScoreField.innerHTML = playerCurrentCardValue;
+   dealerFinalScoreField.innerHTML = dealerCurrentCardValue;
+   resultTitle.innerHTML = "It's a draw!";
+   setTimeout(showResultScreen, 1000);
+}
+
+function loser(){
+   hitBtn.disabled = true;
+   playerFinalScoreField.innerHTML = playerCurrentCardValue;
+   dealerFinalScoreField.innerHTML = dealerCurrentCardValue;
+   resultTitle.innerHTML = 'You lose';
+   setTimeout(showResultScreen, 1000);
+}
+
 
 function check(){
    // Self Lose
    if (playerCurrentCardValue > 21) {
-      document.getElementById("player-name").innerHTML += " - You lose!";
       currentChips = currentChips - currentBet;
       currentChipsField.innerHTML = currentChips;
-      resultTitle.innerHTML = 'You lose';
-      winner();
-      
-    
+      loser();
    }
    // Blackjack
    else if (playerCurrentCardValue == 21) {
       // calculate chips 
-      document.getElementById("player-name").innerHTML += " - Blackjack!";
       currentChips = currentChips + currentBet;
       currentChipsField.innerHTML = currentChips;
-      resultTitle.innerHTML = 'You win';
-
-      winner();
+      winner(1);
    }
-
 
    // HELD
    else if(held){
       held = false;
+      if(dealerCurrentCardValue==playerCurrentCardValue){
+         draw();
+      }
       // less than player
       if(dealerCurrentCardValue<playerCurrentCardValue){
          while(dealerCurrentCardValue<playerCurrentCardValue){
@@ -181,26 +231,36 @@ function check(){
       }
       // look for draw
       if(dealerCurrentCardValue==playerCurrentCardValue){
-         winner();
-         resultTitle.innerHTML = 'Draw';
+         let decide = Math.random() * (2 - 0) +0
+         if(decide<1){
+            dealerDrawCard();
+            
+         }
+         else{
+            draw();
+            resultTitle.innerHTML = 'Draw';
+            
+         }  
       }
       // dealer exceed
       if(dealerCurrentCardValue>21){
-         winner();
+         winner(0);
          resultTitle.innerHTML = 'You win';
       }
       // dealer won | NO BLACKJACK
       if(dealerCurrentCardValue<21 && dealerCurrentCardValue>playerCurrentCardValue){
          resultTitle.innerHTML = 'You lose';
-         winner();
+         loser();
       }
       // dealer won |  BLACKJACK
       if(dealerCurrentCardValue==21){
          resultTitle.innerHTML = 'You lose';
-         winner();
+         loser();
       }
-     
-      
+      // normal win
+      if(playerCurrentCardValue<21 && playerCurrentCardValue>dealerCurrentCardValue){
+         winner(0);
+      }
    }
    
 }
@@ -242,8 +302,8 @@ function playAgain(){
       }
    };
    removeChilds();
-   document.getElementById("player-name").innerHTML = "Player"
-   document.getElementById("dealer-name").innerHTML = "Dealer"
+   document.getElementById("player-name-span").innerHTML = ""
+   document.getElementById("dealer-name-span").innerHTML = ""
    resultScreen.style.visibility = "hidden";
    dealHands(); 
 }
