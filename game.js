@@ -183,6 +183,7 @@ function winner(blackjackWin){
       resultTitle.innerHTML = 'You win';
    }
    setTimeout(showResultScreen, 1000);
+   
 }
 
 function draw(){
