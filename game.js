@@ -8,7 +8,7 @@ let playerCurrentCardValue = 0;
 let dealerCurrentCardValue = 0;
 
 let currentChips = 500;
-let currentBet = 0;
+let currentBet = 25;
 let record = 0;
 let winstreak = 0;
 
@@ -28,6 +28,7 @@ let plusBtn = document.getElementById("plus-btn");
 let hitBtn = document.getElementById("hit-btn");
 let holdBtn = document.getElementById("hold-btn");
 let resetDataBtn = document.getElementById("reset-data");
+let resetGameBtn = document.getElementById("reset-game")
 let playAgainBtn = document.getElementById("play-again-btn");
 // SCREENS
 let resultScreen = document.getElementById("result-screen");
@@ -48,9 +49,9 @@ initializeDataUI();
 
 
 // MINUS BTN
-function minus(minusBtn) {
-   if (currentBet >= 50) {
-      currentBet -= 50;
+function minus() {
+   if (currentBet > 25) {
+      currentBet -= 25;
       currentBetField.innerHTML = currentBet;
    }
 }
@@ -60,8 +61,8 @@ minusBtn.onclick = function () {
 };
 // PLUS BUTTON
 function plus() {
-   if (currentBet < currentChips) {
-      currentBet += 50;
+   if (currentBet <= 75) {
+      currentBet += 25;
       currentBetField.innerHTML = currentBet;
    }
 }
@@ -75,11 +76,9 @@ function showResultScreen(){
    resultScreen.style.visibility = "visible";
 }
 
- // Checking bet conditions
-   // 1 - Has placed bet?
-   /*if(currentBet==0){
-        alert("You have to place a bet.")
-    }*/
+// Checking bet conditions
+// 1 - Has placed bet?
+
 
 
 let playerCardsImagesArray = [];
@@ -112,7 +111,6 @@ function playerDrawCard() {
    deckIndex++;
 }
 
-let cardToBeTurnedID;
 
 function dealerDrawCard() {
    // CONVER ACE
@@ -165,22 +163,36 @@ dealHands();
 
 let held = false;
 holdBtn.onclick = function () {
-   holdBtn.disabled = true;
-   held = true;
-   turnCardUp();
-   check();
-
-};
+         
+         checkBetConditions();
+         if(forbiddenBet==1){
+            return alert("You have to place a bet.");
+         }
+         if(forbiddenBet==3){
+            return alert("Can't place that bet, lower it");
+         }
+         else if(forbiddenBet==0){
+            holdBtn.disabled = true;
+            held = true;
+            turnCardUp();
+            check(); 
+         }
+}
 
 function winner(blackjackWin){
    hitBtn.disabled = true;
    playerFinalScoreField.innerHTML = playerCurrentCardValue;
    dealerFinalScoreField.innerHTML = dealerCurrentCardValue;
+   
    if(blackjackWin===1){
       resultTitle.innerHTML = 'Blackjack!';
+      currentChips = currentChips + (currentBet*3);
+      currentChipsField.innerHTML = currentChips;
    }
    else{
       resultTitle.innerHTML = 'You win';
+      currentChips = currentChips + currentBet;
+      currentChipsField.innerHTML = currentChips;
    }
    setTimeout(showResultScreen, 1000);
    
@@ -199,22 +211,42 @@ function loser(){
    playerFinalScoreField.innerHTML = playerCurrentCardValue;
    dealerFinalScoreField.innerHTML = dealerCurrentCardValue;
    resultTitle.innerHTML = 'You lose';
+   currentChips = currentChips - currentBet;
+   currentChipsField.innerHTML = currentChips;
    setTimeout(showResultScreen, 1000);
+}
+
+let forbiddenBet = 0;
+function checkBetConditions(){
+   if(currentBet==0){
+      forbiddenBet = 1;
+   }
+   else if(currentChips==0){
+      forbiddenBet = 2;
+   }
+   else if(currentBet>currentChips){
+      forbiddenBet = 3
+   }
+   else if(currentBet>0){
+      hitBtn.disabled = false;
+      forbiddenBet = 0;
+   }
+   else if(currentChips>25){
+      hitBtn.disabled = false;
+      forbiddenBet = 0;
+   }
+   
 }
 
 
 function check(){
    // Self Lose
    if (playerCurrentCardValue > 21) {
-      currentChips = currentChips - currentBet;
-      currentChipsField.innerHTML = currentChips;
       loser();
    }
    // Blackjack
    else if (playerCurrentCardValue == 21) {
       // calculate chips 
-      currentChips = currentChips + currentBet;
-      currentChipsField.innerHTML = currentChips;
       winner(1);
    }
 
@@ -269,15 +301,30 @@ function check(){
 
 
 hitBtn.onclick = function () {
-   playerDrawCard();
-   check();
+         checkBetConditions();
+         if(forbiddenBet==1){
+            return alert("You have to place a bet.");
+         }
+         if(forbiddenBet==3){
+            return alert("Can't place that bet, lower it");
+         }
+         else if(forbiddenBet==0){
+            playerDrawCard();
+            check();
+         }
 };
 
 
 
-// PLAY AGAIN
+// PLAY AGAI
 function playAgain(){
    // clearing values 
+   checkBetConditions();
+   if(forbiddenBet==2){
+      holdBtn.disabled = true;
+      hitBtn.disabled = true;
+      return alert("You have no chips - Reset the game!")
+   }
    deckIndex = 0;
    holdBtn.disabled = false;
    shuffle(deck);
@@ -311,6 +358,24 @@ function playAgain(){
 
 playAgainBtn.onclick = function () {playAgain();};
 
+// RESET GAME
+
+function resetGame() {
+   currentChips = 500;
+   currentBet= 25;
+}
+
+function resetGameUI() {
+   currentChipsField.innerHTML = 500;
+   currentBetField.innerHTML = 0;
+}
+
+resetGameBtn.onclick = function () {
+   resetGame();
+   resetGameUI();
+  
+};
+
 // RESET DATA
 function resetData() {
    currentChips = 500;
@@ -327,8 +392,12 @@ function resetDataUI() {
 }
 
 resetDataBtn.onclick = function () {
-   resetDataUI();
    resetData();
+   resetDataUI();
+   
 };
+
+
+
 
 // HOLD BUTTON

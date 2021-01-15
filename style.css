@@ -330,6 +330,7 @@
 .menu .data {
   border: 1px solid white;
   display: grid;
+  
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
 }
@@ -345,6 +346,7 @@
 .menu .data .data-area-alt {
   border: 1px solid red;
   display: grid;
+  
   grid-template-columns: 1fr 1fr 1fr 2fr 2fr;
   grid-template-areas:
     "d-name d-name d-name minus plus"
@@ -388,7 +390,8 @@
   grid-area: d-value;
   align-self: center;
   font-size: var(--small-title);
-  justify-self: center;
+  justify-self: end;
+  padding-right: 8px;
 }
 
 .menu .data .data-area .name {
@@ -404,7 +407,9 @@
   grid-area: tx;
   align-self: center;
   font-size: var(--small-title);
-  justify-self: center;
+  justify-self: end;
+  padding-right: 8px;
+  
 }
 
 .menu .buttons {
