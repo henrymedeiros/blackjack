@@ -27,6 +27,7 @@ let minusBtn = document.getElementById("minus-btn");
 let plusBtn = document.getElementById("plus-btn");
 let hitBtn = document.getElementById("hit-btn");
 let holdBtn = document.getElementById("hold-btn");
+let doubleBtn = document.getElementById("double");
 let resetDataBtn = document.getElementById("reset-data");
 let resetGameBtn = document.getElementById("reset-game")
 let playAgainBtn = document.getElementById("play-again-btn");
@@ -238,6 +239,16 @@ function checkBetConditions(){
    
 }
 
+// Double BTN
+function double(){
+   currentBet = currentBet*2;
+   currentBetField.innerHTML = currentBet;
+   doubleBtn.disabled = true;
+}
+
+doubleBtn.onclick = function () {
+   double();
+}
 
 function check(){
    // Self Lose
@@ -312,6 +323,8 @@ hitBtn.onclick = function () {
             playerDrawCard();
             check();
          }
+         minusBtn.disabled = true;
+         plusBtn.disabled = true;
 };
 
 
@@ -327,6 +340,8 @@ function playAgain(){
    }
    deckIndex = 0;
    holdBtn.disabled = false;
+   minusBtn.disabled = false;
+   plusBtn.disabled = false;
    shuffle(deck);
    // player
    playerArrayCounter= 0;
@@ -357,6 +372,9 @@ function playAgain(){
 }
 
 playAgainBtn.onclick = function () {playAgain();};
+
+
+
 
 // RESET GAME
 
