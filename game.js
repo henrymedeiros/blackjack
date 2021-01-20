@@ -19,9 +19,13 @@ let currentChipsField = document.getElementById("yourChips-value");
 let currentBetField = document.getElementById("currentBet-value");
 let recordField = document.getElementById("record-value");
 let winStreakField = document.getElementById("winStreak-value");
+let totalWinsField = document.getElementById("total-wins");
+let totalLossesField = document.getElementById("total-losses");
+let totalDrawsField = document.getElementById("total-draws");
 let playerFinalScoreField = document.getElementById("player-final-score");
 let dealerFinalScoreField = document.getElementById("dealer-final-score");
 let resultTitle = document.getElementById("result-title");
+
 // BUTTONS
 let minusBtn = document.getElementById("minus-btn");
 let plusBtn = document.getElementById("plus-btn");
@@ -37,6 +41,9 @@ let resultScreen = document.getElementById("result-screen");
 let dealerHand = document.getElementById("dealer-cards");
 let playerHand = document.getElementById("player-cards");
 
+let totalDraws = 0;
+let totalWins= 0;
+let totalLosses = 0;
 
 function initializeDataUI() {
    currentChipsField.innerHTML = currentChips;
@@ -79,6 +86,7 @@ function showResultScreen(){
 
 // Checking bet conditions
 // 1 - Has placed bet?
+
 
 
 
@@ -194,6 +202,8 @@ function winner(blackjackWin){
       resultTitle.innerHTML = 'You win';
       currentChips = currentChips + currentBet;
       currentChipsField.innerHTML = currentChips;
+      totalWins++;
+      totalWinsField.innerHTML = totalWins;
    }
    setTimeout(showResultScreen, 1000);
    
@@ -205,6 +215,8 @@ function draw(){
    dealerFinalScoreField.innerHTML = dealerCurrentCardValue;
    resultTitle.innerHTML = "It's a draw!";
    setTimeout(showResultScreen, 1000);
+   totalDraws++;
+   totalDrawsField.innerHTML = totalDraws;
 }
 
 function loser(){
@@ -215,6 +227,9 @@ function loser(){
    currentChips = currentChips - currentBet;
    currentChipsField.innerHTML = currentChips;
    setTimeout(showResultScreen, 1000);
+   totalLosses++;
+   totalLossesField.innerHTML = totalLosses;
+
 }
 
 let forbiddenBet = 0;
