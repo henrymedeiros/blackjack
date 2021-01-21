@@ -202,9 +202,10 @@ function winner(blackjackWin){
       resultTitle.innerHTML = 'You win';
       currentChips = currentChips + currentBet;
       currentChipsField.innerHTML = currentChips;
-      totalWins++;
-      totalWinsField.innerHTML = totalWins;
+      
    }
+   totalWins++;
+   totalWinsField.innerHTML = totalWins;
    setTimeout(showResultScreen, 1000);
    
 }
@@ -357,6 +358,7 @@ function playAgain(){
    holdBtn.disabled = false;
    minusBtn.disabled = false;
    plusBtn.disabled = false;
+   doubleBtn.disabled = false;
    shuffle(deck);
    // player
    playerArrayCounter= 0;
@@ -414,7 +416,10 @@ function resetData() {
    currentChips = 500;
    currentBet= 0;
    record= 0;
-   winStreak =0;
+   winstreak = 0;
+   totalLosses = 0;
+   totalWins = 0;
+   totalDraws = 0;
 }
 
 function resetDataUI() {
@@ -422,6 +427,9 @@ function resetDataUI() {
    currentBetField.innerHTML = 0;
    recordField.innerHTML = 0;
    winStreakField.innerHTML = 0;
+   totalLossesField.innerHTML = 0;
+   totalWinsField.innerHTML = 0;
+   totalDrawsField.innerHTML = 0;
 }
 
 resetDataBtn.onclick = function () {

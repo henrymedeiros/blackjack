@@ -286,7 +286,7 @@
 }
 
 .menu .player-info {
-  border: 2px solid blue;
+
   display: grid;
   grid-template-rows: 45% 15% 15% 25%;
   grid-template-areas:
@@ -299,11 +299,13 @@
 .menu .player-info .profile-picture {
   width: 100px;
   height: 100px;
-  background-color: var(--darker-orange);
+  background: url(assets/images/user-image.jpg) no-repeat; 
+  background-size: contain;
   border-radius: 50%;
   grid-area: m-pp;
   justify-self: center;
   align-self: center;
+
 }
 
 .menu .player-info .player-name {
@@ -312,12 +314,17 @@
   font-weight: var(--medium);
 }
 
+
 .menu .player-info .player-statistics {
   justify-self: center;
   grid-area: m-ps;
   font-weight: var(--medium);
 }
 
+.menu .player-info .total-text{
+  font-weight: var(--medium);
+  font-size: var(--text);
+}
 
 .menu .player-info .player-description {
   grid-area: m-pd;
@@ -328,7 +335,7 @@
 }
 
 .menu .data {
-  border: 1px solid white;
+
   display: grid;
   
   grid-template-columns: 50% 50%;
@@ -336,7 +343,7 @@
 }
 
 .menu .data .data-area {
-  border: 1px solid red;
+
   display: grid;
   grid-template-areas:
     "t t t "
@@ -344,7 +351,6 @@
 }
 
 .menu .data .data-area-alt {
-  border: 1px solid red;
   display: grid;
   
   grid-template-columns: 1fr 1fr 1fr 2fr 2fr;
@@ -390,8 +396,9 @@
   grid-area: d-value;
   align-self: center;
   font-size: var(--small-title);
-  justify-self: end;
-  padding-right: 8px;
+  justify-self: center;
+  margin-left: 12px;
+  
 }
 
 .menu .data .data-area .name {
@@ -407,13 +414,12 @@
   grid-area: tx;
   align-self: center;
   font-size: var(--small-title);
-  justify-self: end;
+  justify-self: center;
   padding-right: 8px;
   
 }
 
 .menu .buttons {
-  border: 1px solid green;
   display: grid;
   padding: 16px 0 16px 0;
   grid-template-columns: calc(30% 30% 40%);
@@ -455,7 +461,7 @@
   grid-area: t;
   height: 100vh;
   z-index: 10;
-  background: url(assets/result-background.png) no-repeat; 
+  background: url(assets/images/result-background.png) no-repeat; 
   background-size: 100%;
   color: var(--text-color);
   display: flex;
@@ -607,10 +613,10 @@
   width: 100%;
   background-color: transparent;
   border: none;
-  border-bottom: 2px solid white;
   padding-bottom: 2.5px;
   color: white;
   margin-bottom: calc(55px - (0.3 * 55px));
+  border-bottom: 2px solid white;
 }
 
 .edit-info ::placeholder {
