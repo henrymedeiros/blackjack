@@ -12,13 +12,13 @@
     <!-- Font  -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-        
+
 </head>
 
 <body>
 
-        
-  
+
+
     <div class="container">
         <div class="table">
             <div id="bg-how-to-play" class="darker-bg">
@@ -33,9 +33,10 @@
                                 deck first.
                             </p>
                             <h2 class="rule-title">GAMEPLAY</h2>
-                            <p class="rule-description"> and 2 cards to you. The dealer's second card will be played
-                                face down. You can choose to either hit (receive more cards) or stand (move on to the
-                                next hand). You can hit as many times as you choose so long as your deck is under 21.
+                            <p class="rule-description">The dealer will give 2 cards to themself and 2 cards to you. The
+                                dealer's second card will be played face down. You can choose to either hit (receive
+                                more cards) or stand (move on to the next hand). You can hit as many times as you choose
+                                so long as your deck is under 21.
                             </p>
                             <h2 class="rule-title">CARD VALUES</h2>
                             <p class="rule-description">
@@ -74,14 +75,14 @@
                     </div>
                     <div id="dealer-cards" class="dealer-cards">
                     </div>
-                    
-                </div>      
+
+                </div>
             </div>
 
 
             <div class="player-area">
                 <div class="player-name">
-                    <h1 id="player-name">Player - <span id="player-name-span"> </span></h1> 
+                    <h1 id="player-name">Player - <span id="player-name-span"> </span></h1>
                 </div>
                 <div class="shell-deck-and-cards">
                     <div class="deck">
@@ -89,13 +90,13 @@
                     </div>
                     <div id="player-cards" class="player-cards">
                     </div>
-                </div>      
+                </div>
             </div>
 
 
-            <div class="btn-how-to-play">
+            <div id="how-to-play" class="btn-how-to-play">
 
-                <p id="how-to-play">How to play</p>
+                <p>How to play</p>
                 <span>
                     <img src="assets/icons/htp-icon.png" alt="">
                 </span>
@@ -116,22 +117,22 @@
                 <h1 id="result-title" class="result-title"></h1>
                 <p class="result-phrase"> Lorem ipsum dolor sit amet </p>
                 <div class="result-grid">
-                
+
                     <div class="result-items">
                         <div class="result-label">
                             <h1 class="name">Dealer</h1>
                             <div class="result-square">
                                 <span id="dealer-final-score">0</span>
-                            </div> 
-                        
+                            </div>
+
                         </div>
-    
+
                         <div class="result-label">
                             <h1 class="name">Player</h1>
                             <div class="result-square">
                                 <span id="player-final-score">0</span>
-                            </div> 
-                        
+                            </div>
+
                         </div>
                     </div>
 
@@ -153,15 +154,15 @@
                             <img src="assets/icons/current-bet.png" alt="">
                             <p>100</p>
                         </div>
-                        
+
                     </div>
                 </div>
                 <button id="play-again-btn" class="result-play-again">
                     Play Again
                 </button>
-            </div>    
+            </div>
 
-         
+
         </div>
 
         <!-- MENU SIDEBAR -->
@@ -176,14 +177,16 @@
             </div>
             <!--Player Area-->
             <div id="player-info" class="player-info">
-                <div class="profile-picture">
+                <div id="user-img" class="profile-picture">
 
                 </div>
 
-                <p class="player-name">Player Name</p>
-                <p class="player-statistics"> WINS: <span id="total-wins" class="total-text">0</span>  | LOSSES: <span id="total-losses" class="total-text">0</span>  | DRAWS: <span id="total-draws" class="total-text">0</span></p>
-                <p class="player-description">
-                    "I'm a winner!"
+                <p id="username" class="player-name"></p>
+                <p class="player-statistics"> WINS: <span id="total-wins" class="total-text">0</span> | LOSSES: <span
+                        id="total-losses" class="total-text">0</span> | DRAWS: <span id="total-draws"
+                        class="total-text">0</span></p>
+                <p id="user-description" class="player-description">
+                    ""
                 </p>
             </div>
 
@@ -227,23 +230,27 @@
 
             </div>
             <div id="buttons" class="buttons">
-                <button id="hit-btn" class="hit-btn">
-                    ‏‏‎ ‎ Hit‎‎‎‎‏‏‎ ‎
-                </button>
-                <button id="hold-btn" class="hold-btn">
-                    Hold
-                </button>
-                <button id="double" class="double-btn">
-                    Double
-                </button>
-                <button id="reset-game" class="reset-game-btn">
-                    Reset Game
-                </button>
-                <button id="reset-data" class="reset-data-btn">
-                    Reset Data
-                </button>
+                <div class="up-buttons">
+                    <button id="hit-btn" class="hit-btn">
+                        ‏‏Hit‎‎‎‎‏‏‎ ‎
+                    </button>
+                    <button id="hold-btn" class="hold-btn">
+                        Hold
+                    </button>
+                    <button id="double" class="double-btn">
+                        Double
+                    </button>
+                </div>
+                <div class="down-buttons">
+                    <button id="reset-game" class="reset-game-btn">
+                        Reset Game
+                    </button>
+                    <button id="reset-data" class="reset-data-btn">
+                        Reset Data
+                    </button>
+                </div>
             </div>
-  
+
         </div>
 
         <!-- EDIT INFO SIDEBAR -->
@@ -255,14 +262,14 @@
             </div>
 
             <form id="register">
-                <label> Your name </label><input placeholder="Type your name here...">
-                <label> Description, Goal or Lucky Said </label><input placeholder="Type anything here...">
+                <label> Your name </label><input id="username" placeholder="Type your name here...">
+                <label> Description, Goal or Lucky Said </label><input id="user-description" placeholder="Type anything here...">
             </form>
             <h3 class="upload-img-title">Upload your image</h3>
             <img src="assets/icons/upload.png">
             <p class="upload-img-description">Your image must be at least
                 150 x 150 pixels</p>
-            <button type="submit" form="form1" value="Submit">Submit</button>
+            <button id="user-info" type="submit" form="form1" value="Submit">Submit</button>
         </div>
 
     </div>

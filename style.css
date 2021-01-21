@@ -150,11 +150,16 @@
   justify-content: flex-end;
   height: 7%;
   align-items: center;
-  padding-right: 32px;
+  margin-right: 32px;
 }
 
 .table .btn-how-to-play p {
   padding-right: 10px;
+}
+
+.table .btn-how-to-play span img  {
+  width: 80%;
+  margin-top:20%;
 }
 
 
@@ -224,6 +229,10 @@
   font-family: "Poppins";
   font-size: var(--title);
   grid-area: title;
+}
+
+.how-to-play .rules-description{
+  text-align: center;;
 }
 
 .how-to-play .rules-left-column {
@@ -420,38 +429,51 @@
 }
 
 .menu .buttons {
-  display: grid;
+  margin-top: 20px;
+  display: flex;
   padding: 16px 0 16px 0;
-  grid-template-columns: calc(30% 30% 40%);
-  grid-template-areas:
-    "h h1 d"
-    "rg rg rd";
-  gap: 12px;
-  align-items: center;
+  flex-direction: column;
+  
+  
+}
+
+.menu .buttons .up-buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.menu .buttons .down-buttons{
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu .buttons button {
   border: 0;
-  height: 56px;
+  height: 40px;
   font-weight: var(--medium);
   background-color: var(--darker-orange);
+  
   color: white;
 }
 
 .menu .buttons .hit-btn {
-  grid-area: h;
+  width: 25%;
 }
 
 .menu .buttons .hold-btn {
-  grid-area: h1;
+  width: 25%;
 }
 
 .menu .buttons .double-btn {
-  grid-area: d;
+  width: 40%;
 }
 
 .menu .buttons .reset-game-btn {
-  grid-area: rg;
+  width: 50%;
+}
+
+.menu .buttons .reset-data-btn {
+  width: 45%;
 }
 
 /* HIDED CONTENT */

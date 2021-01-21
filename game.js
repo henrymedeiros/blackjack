@@ -9,7 +9,7 @@ let dealerCurrentCardValue = 0;
 
 let currentChips = 500;
 let currentBet = 25;
-let record = 0;
+let record = 500;
 let winstreak = 0;
 
 // gatheirng elements
@@ -87,7 +87,14 @@ function showResultScreen(){
 // Checking bet conditions
 // 1 - Has placed bet?
 
+function setRecord(){
+   if(currentChips > record){
+      record = currentChips;
+      recordField.innerHTML = record;
+   }
+}
 
+let currentStreak = 0;
 
 
 let playerCardsImagesArray = [];
@@ -185,6 +192,7 @@ holdBtn.onclick = function () {
             held = true;
             turnCardUp();
             check(); 
+            setRecord();
          }
 }
 
@@ -206,8 +214,13 @@ function winner(blackjackWin){
    }
    totalWins++;
    totalWinsField.innerHTML = totalWins;
+   currentStreak++;
+   if(currentStreak>winstreak){
+      winstreak = currentStreak;
+      winStreakField.innerHTML = winstreak;
+   }
    setTimeout(showResultScreen, 1000);
-   
+   console.log(currentChips, record);
 }
 
 function draw(){
@@ -216,6 +229,7 @@ function draw(){
    dealerFinalScoreField.innerHTML = dealerCurrentCardValue;
    resultTitle.innerHTML = "It's a draw!";
    setTimeout(showResultScreen, 1000);
+   console.log(currentChips, record);
    totalDraws++;
    totalDrawsField.innerHTML = totalDraws;
 }
@@ -228,6 +242,7 @@ function loser(){
    currentChips = currentChips - currentBet;
    currentChipsField.innerHTML = currentChips;
    setTimeout(showResultScreen, 1000);
+   console.log(currentChips, record);
    totalLosses++;
    totalLossesField.innerHTML = totalLosses;
 
@@ -341,6 +356,7 @@ hitBtn.onclick = function () {
          }
          minusBtn.disabled = true;
          plusBtn.disabled = true;
+         setRecord();
 };
 
 
@@ -386,6 +402,9 @@ function playAgain(){
    document.getElementById("dealer-name-span").innerHTML = ""
    resultScreen.style.visibility = "hidden";
    dealHands(); 
+   currentBet = 25;
+   currentBetField.innerHTML = 25
+   currentStreak = winstreak;
 }
 
 playAgainBtn.onclick = function () {playAgain();};
@@ -402,7 +421,7 @@ function resetGame() {
 
 function resetGameUI() {
    currentChipsField.innerHTML = 500;
-   currentBetField.innerHTML = 0;
+   currentBetField.innerHTML = 25;
 }
 
 resetGameBtn.onclick = function () {
@@ -414,8 +433,8 @@ resetGameBtn.onclick = function () {
 // RESET DATA
 function resetData() {
    currentChips = 500;
-   currentBet= 0;
-   record= 0;
+   currentBet= 25;
+   record= 500;
    winstreak = 0;
    totalLosses = 0;
    totalWins = 0;
@@ -424,8 +443,8 @@ function resetData() {
 
 function resetDataUI() {
    currentChipsField.innerHTML = 500;
-   currentBetField.innerHTML = 0;
-   recordField.innerHTML = 0;
+   currentBetField.innerHTML = 25;
+   recordField.innerHTML = 500;
    winStreakField.innerHTML = 0;
    totalLossesField.innerHTML = 0;
    totalWinsField.innerHTML = 0;
