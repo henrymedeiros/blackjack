@@ -30,16 +30,15 @@
   width: 100vw;
   height: 100vh;
   display: grid;
-
   grid-template-columns: 4fr 1fr;
-  grid-template-areas: "t m";
+  grid-template-areas: "table m";
 }
 
 .table {
   max-height: 100vh;
   background-color: var(--table-bg-color);
   color: var(--text-color);
-  grid-area: t;
+  grid-area: table;
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 50% 50%;
@@ -292,6 +291,7 @@
 
 .menu .nav .menu-settings img {
   width: 28px;
+  cursor:pointer;
 }
 
 .menu .player-info {
@@ -307,9 +307,9 @@
 
 .menu .player-info .profile-picture {
   width: 100px;
-  height: 100px;
-  background: url(assets/images/user-image.jpg) no-repeat; 
+  height: 100px; 
   background-size: contain;
+  
   border-radius: 50%;
   grid-area: m-pp;
   justify-self: center;
@@ -457,41 +457,43 @@
 }
 
 .menu .buttons .hit-btn {
-  width: 25%;
+  width: 25%;cursor:pointer;
+
 }
 
 .menu .buttons .hold-btn {
-  width: 25%;
+  width: 25%;cursor:pointer;
 }
 
 .menu .buttons .double-btn {
-  width: 40%;
+  width: 40%;cursor:pointer;
 }
 
 .menu .buttons .reset-game-btn {
-  width: 50%;
+  width: 50%;cursor:pointer;
 }
 
 .menu .buttons .reset-data-btn {
-  width: 45%;
+  width: 45%;cursor:pointer;
 }
 
 /* HIDED CONTENT */
 
 /* RESULT SCREEN */
 .result-screen{
-  grid-area: t;
-  height: 100vh;
+  grid-area: table;
+  height: 100%;
   z-index: 10;
-  background: url(assets/images/result-background.png) no-repeat; 
-  background-size: 100%;
+  background-size: 100% 100%;
   color: var(--text-color);
   display: flex;
   justify-content: center;
   align-items: center;
   visibility: hidden;
-  
+  max-height: 100vh;
 }
+
+
 
 .result-content{
   background-color:#1C1824;
@@ -647,14 +649,14 @@
   margin-bottom: 100px;
 }
 
-.edit-info .upload-img-title {
+.edit-info  .upload-img-title {
   text-align: center;
   font-weight: var(--medium);
   margin-top: 25px;
   margin-bottom: calc(21px - (0.3 * 21px));
 }
 
-.edit-info img {
+.edit-info label img {
   width: 40%;
   align-self: center;
   margin-bottom: calc(21px - (0.3 * 21px));
@@ -674,8 +676,6 @@
   padding: 6px 0 6px 0;
   font-weight: var(--medium);
 }
-
-
 
 @media only screen and (max-width: 1366px) {
   :root {

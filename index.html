@@ -102,10 +102,7 @@
                 </span>
             </div>
 
-            <!--<footer>
-                <p class="my-name">Author: Henry Medeiros </p>
-                <p class="credits">Icons made by Freepik from Flaticon.com </p>
-            </footer>-->
+           
         </div>
 
 
@@ -181,11 +178,11 @@
 
                 </div>
 
-                <p id="username" class="player-name"></p>
+                <p id="username-element" class="player-name"></p>
                 <p class="player-statistics"> WINS: <span id="total-wins" class="total-text">0</span> | LOSSES: <span
                         id="total-losses" class="total-text">0</span> | DRAWS: <span id="total-draws"
                         class="total-text">0</span></p>
-                <p id="user-description" class="player-description">
+                <p id="user-description-element" class="player-description">
                     ""
                 </p>
             </div>
@@ -262,21 +259,22 @@
             </div>
 
             <form id="register">
-                <label> Your name </label><input id="username" placeholder="Type your name here...">
-                <label> Description, Goal or Lucky Said </label><input id="user-description" placeholder="Type anything here...">
+                <label> Your name </label><input id="username-input" placeholder="Type your name here...">
+                <label> Description, Goal or Lucky Said </label><input id="user-description-input" placeholder="Type anything here...">
+                
             </form>
-            <h3 class="upload-img-title">Upload your image</h3>
-            <img src="assets/icons/upload.png">
-            <p class="upload-img-description">Your image must be at least
-                150 x 150 pixels</p>
+        
+       
+            
             <button id="user-info" type="submit" form="form1" value="Submit">Submit</button>
         </div>
 
     </div>
 
 </body>
-<script src="game.js" type="module"></script>
 <script src="scripts.js" type="module"></script>
+<script src="game.js" type="module"></script>
+
 <script src="deck.js" type="module"></script>
 
 

@@ -5,26 +5,47 @@ window.onload = function () {
   let user = {
     username:"Player Name", 
     userDescription:"\"I'm a winner\"",
-    userImgPATH:"images/user-image.jpg"
   };
 
-  let usernameElement = document.getElementById("username");
-  let userDescriptionElement = document.getElementById("user-description");
+  let usernameElement = document.getElementById("username-element");
+  let userDescriptionElement = document.getElementById("user-description-element");
   let userImgElement = document.getElementById("user-img");
 
-  usernameElement.innerHTML = user.username;
-  userDescriptionElement.innerHTML = user.userDescription;
-  userImgElement.src = user.userImgPATH;
+  let usernameInput = document.getElementById("username-input");
+  let userDescriptionInput = document.getElementById("user-description-input");
   
+  userImgElement.style.background = "url(assets/images/user-image.jpg)"
+  userImgElement.style.backgroundSize = "contain"
+  
+  function updateUser(){
+    usernameElement.textContent = user.username;
+    userDescriptionElement.textContent = user.userDescription;
+  }
 
+  updateUser();
+
+  
   let settingBtn = document.getElementById("setting-btn");
   let editInfo = document.getElementById("edit-info");
   let closeBtn = document.getElementById("close-btn");
 
   let userInfoBtn = document.getElementById("user-info");
 
-
+  // GETTING USER INFO 
+  userInfoBtn.onclick = function(){
+    console.log(usernameElement.value);
+    user.username = usernameInput.value;
+    user.userDescription = userDescriptionInput.value;
+    updateUser();
+    
+    toggleSideBar();
+  }
   
+	
+
+
+
+  // SIDE BAR
   function toggleSideBar() {
     editInfo.classList.toggle("show-edit-info");
   }
