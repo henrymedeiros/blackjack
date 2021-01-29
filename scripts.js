@@ -13,13 +13,27 @@ window.onload = function () {
 
   let usernameInput = document.getElementById("username-input");
   let userDescriptionInput = document.getElementById("user-description-input");
+
+  let audioPlayer = document.getElementById("player");
+  let muteButton = document.getElementById("mute-btn");
   
+
   userImgElement.style.background = "url(assets/images/user-image.jpg)"
   userImgElement.style.backgroundSize = "contain"
   
   function updateUser(){
     usernameElement.textContent = user.username;
     userDescriptionElement.textContent = user.userDescription;
+  }
+
+
+  function toggleSound(){
+    if(audioPlayer.muted===false){
+      audioPlayer.muted = true;
+    }
+    else{
+      audioPlayer.muted = false;
+    }
   }
 
   updateUser();
@@ -31,16 +45,18 @@ window.onload = function () {
 
   let userInfoBtn = document.getElementById("user-info");
 
+  
+
   // GETTING USER INFO 
   userInfoBtn.onclick = function(){
     console.log(usernameElement.value);
     user.username = usernameInput.value;
     user.userDescription = userDescriptionInput.value;
     updateUser();
-    
     toggleSideBar();
   }
   
+  muteButton.onclick = function(){ toggleSound()}
 	
 
 

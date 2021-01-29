@@ -13,7 +13,6 @@ let currentBet = 25;
 let record = 500;
 let winstreak = 0;
 
-let currentStreak = 0;
 
 let totalDraws = 0;
 let totalWins = 0;
@@ -67,13 +66,13 @@ function loadData(){
 loadData();
 
 function initializeDataUI() {
-   currentChipsField.innerHTML = currentChips;
-   currentBetField.innerHTML = currentBet;
-   recordField.innerHTML = record;
-   winStreakField.innerHTML = winstreak;
-   totalWinsField.innerHTML = totalWins;
-   totalLossesField.innerHTML = totalLosses;
-   totalDrawsField.innerHTML = totalDraws;
+   currentChipsField.textContent = currentChips;
+   currentBetField.textContent= currentBet;
+   recordField.textContent = record;
+   winStreakField.textContent = winstreak;
+   totalWinsField.textContent = totalWins;
+   totalLossesField.textContent = totalLosses;
+   totalDrawsField.textContent = totalDraws;
 }
 
 function showResultScreen() {
@@ -83,7 +82,7 @@ function showResultScreen() {
 function setRecord() {
    if (currentChips > record) {
       record = currentChips;
-      recordField.innerHTML = record;
+      recordField.textContent = record;
    }
 }
 
@@ -114,14 +113,14 @@ function savePlayerData(){
 function minus() {
    if (currentBet > 25) {
       currentBet -= 25;
-      currentBetField.innerHTML = currentBet;
+      currentBetField.textContent = currentBet;
    }
 }
 
 function plus() {
    if (currentBet <= 75) {
       currentBet += 25;
-      currentBetField.innerHTML = currentBet;
+      currentBetField.textContent = currentBet;
    }
 }
 minusBtn.onclick = function () {
@@ -221,27 +220,21 @@ function winner(blackjackWin) {
    hitBtn.disabled = true;
    playerFinalScoreField.innerHTML = playerCurrentCardValue;
    dealerFinalScoreField.innerHTML = dealerCurrentCardValue;
-
    if (blackjackWin === 1) {
       resultTitle.innerHTML = "Blackjack!";
       currentChips = currentChips + currentBet * 3;
-      currentChipsField.innerHTML = currentChips;
+      currentChipsField.textContent = currentChips;
       resultScreen.style.background = "url(assets/images/result-background-blackjack.png) no-repeat"
       resultScreen.style.backgroundSize = "100% 100%"
    } else {
       resultTitle.innerHTML = "You win";
       currentChips = currentChips + currentBet;
-      currentChipsField.innerHTML = currentChips;
+      currentChipsField.textContent = currentChips;
       resultScreen.style.background = "url(assets/images/result-background.png) no-repeat"
       resultScreen.style.backgroundSize = "100% 100%"
    }
    totalWins++;
    totalWinsField.innerHTML = totalWins;
-   currentStreak++;
-   if (currentStreak > winstreak) {
-      winstreak = currentStreak;
-      winStreakField.innerHTML = winstreak;
-   }
    setTimeout(showResultScreen, 1000);
    savePlayerData();
 }
@@ -263,11 +256,12 @@ function loser() {
    dealerFinalScoreField.innerHTML = dealerCurrentCardValue;
    resultTitle.innerHTML = "You lose";
    currentChips = currentChips - currentBet;
-   currentChipsField.innerHTML = currentChips;
+   currentChipsField.textContent = currentChips;
    setTimeout(showResultScreen, 1000);
    console.log(currentChips, record);
    totalLosses++;
    totalLossesField.innerHTML = totalLosses;
+ 
    resultScreen.style.background = "url(assets/images/result-background-loser.png) no-repeat"
    resultScreen.style.backgroundSize = "100% 100%"
    savePlayerData();
@@ -293,7 +287,7 @@ function checkBetConditions() {
 // Double BTN
 function double() {
    currentBet = currentBet * 2;
-   currentBetField.innerHTML = currentBet;
+   currentBetField.textContent = currentBet;
    doubleBtn.disabled = true;
 }
 
@@ -420,8 +414,7 @@ function playAgain() {
    resultScreen.style.visibility = "hidden";
    dealHands();
    currentBet = 25;
-   currentBetField.innerHTML = 25;
-   currentStreak = winstreak;
+   currentBetField.textContent = 25;
    savePlayerData();
 }
 
@@ -437,8 +430,8 @@ function resetGame() {
 }
 
 function resetGameUI() {
-   currentChipsField.innerHTML = 500;
-   currentBetField.innerHTML = 25;
+   currentChipsField.textContent = 500;
+   currentBetField.textContent = 25;
 }
 
 resetGameBtn.onclick = function () {

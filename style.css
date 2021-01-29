@@ -677,6 +677,10 @@
   font-weight: var(--medium);
 }
 
+.edit-info .mute-sound-btn{
+  margin-top: 300px;
+}
+
 @media only screen and (max-width: 1366px) {
   :root {
     /* text sizes*/
