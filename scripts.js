@@ -2,6 +2,7 @@
 
 window.onload = function () {
   // SETTINGS BUTTON
+  
   let user = {
     username:"Guest", 
     userDescription:"\"I'm a winner\"",

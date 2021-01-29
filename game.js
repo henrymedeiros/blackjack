@@ -24,6 +24,8 @@ let dealerCardsImagesArray = [];
 let playerArrayCounter = 0;
 let dealerArrayCounter = 0;
 
+let isPlayer = false;
+
 
 // FIELDS
 let currentChipsField = document.getElementById("yourChips-value");
@@ -38,21 +40,19 @@ let dealerFinalScoreField = document.getElementById("dealer-final-score");
 let resultTitle = document.getElementById("result-title");
 
 // BUTTONS
-let minusBtn = document.getElementById("minus-btn");
-let plusBtn = document.getElementById("plus-btn");
 let hitBtn = document.getElementById("hit-btn");
 let holdBtn = document.getElementById("hold-btn");
 let doubleBtn = document.getElementById("double");
 let resetDataBtn = document.getElementById("reset-data");
 let resetGameBtn = document.getElementById("reset-game");
 let playAgainBtn = document.getElementById("play-again-btn");
+let startGameBtn = document.getElementById("start-game")
 // SCREENS
 let resultScreen = document.getElementById("result-screen");
 // UI Parts
 let dealerHand = document.getElementById("dealer-cards");
 let playerHand = document.getElementById("player-cards");
 
-console.log()
 function loadData(){
    if(localStorage.currentChips){
       currentChips = parseInt(localStorage.currentChips, 10);
@@ -61,10 +61,23 @@ function loadData(){
       totalWins = parseInt(localStorage.totalWins, 10)
       totalLosses = parseInt(localStorage.totalLosses, 10);
       totalDraws = parseInt(localStorage.totalDraws, 10);
+      isPlayer = localStorage.isPlayer;
    }
 }
 
-loadData();
+function disableGameButtons(){
+   hitBtn.disabled = true;
+   holdBtn.disabled = true;
+   doubleBtn.disabled = true;
+}
+
+function enableGameButtons(){
+   hitBtn.disabled = false;
+   holdBtn.disabled = false;
+   doubleBtn.disabled = false;
+}
+
+
 
 function initializeDataUI() {
    currentChipsField.innerHTML = currentChips;
@@ -75,6 +88,13 @@ function initializeDataUI() {
    totalLossesField.innerHTML = totalLosses;
    totalDrawsField.innerHTML = totalDraws;
 }
+
+
+
+loadData();
+initializeDataUI();
+disableGameButtons();
+getFirstBet();
 
 function showResultScreen() {
    resultScreen.style.visibility = "visible";
@@ -97,7 +117,17 @@ function turnCardUp() {
    image.src = deck[2].img;
 }
 
-initializeDataUI();
+function gameStart(){
+   let startScreen = document.getElementById('start-screen');
+   startScreen.style.visibility = "hidden";
+}
+
+startGameBtn.onclick = function(){
+   gameStart();
+   enableGameButtons();
+}
+
+
 
 
 function savePlayerData(){
@@ -107,29 +137,21 @@ function savePlayerData(){
    localStorage.setItem('totalWins', totalWins);
    localStorage.setItem('totalLosses', totalLosses);
    localStorage.setItem('totalDraws', totalDraws);
+   localStorage.setItem('isPlayer', true);
 }
 
-// Result screen
+function getFirstBet(){
+   let bet25Element = document.getElementById('bet-25');
+   let bet50Element = document.getElementById('bet-50');
+   let bet75Element= document.getElementById('bet-75');
+   let bet100Element = document.getElementById('bet-100');
 
-function minus() {
-   if (currentBet > 25) {
-      currentBet -= 25;
-      currentBetField.textContent = currentBet;
-   }
+   bet25Element.onclick = function(){currentBet=25; currentBetField.textContent = currentBet;};
+   bet50Element.onclick = function(){currentBet=50;currentBetField.textContent = currentBet;};
+   bet75Element.onclick = function(){currentBet=75;currentBetField.textContent = currentBet;};
+   bet100Element.onclick = function(){currentBet=100; currentBetField.textContent = currentBet;};
 }
 
-function plus() {
-   if (currentBet <= 75) {
-      currentBet += 25;
-      currentBetField.textContent = currentBet;
-   }
-}
-minusBtn.onclick = function () {
-   minus();
-};
-plusBtn.onclick = function () {
-   plus();
-};
 
 function playerDrawCard() {
    // ACE CHECK
@@ -237,6 +259,8 @@ function winner(blackjackWin) {
    totalWins++;
    totalWinsField.innerHTML = totalWins;
    setTimeout(showResultScreen, 1000);
+   getNextBet();
+   
    savePlayerData();
 }
 
@@ -246,8 +270,11 @@ function draw() {
    dealerFinalScoreField.innerHTML = dealerCurrentCardValue;
    resultTitle.innerHTML = "It's a draw!";
    setTimeout(showResultScreen, 1000);
+   getNextBet();
    totalDraws++;
    totalDrawsField.innerHTML = totalDraws;
+   resultScreen.style.background = "url(assets/images/result-background.png) no-repeat"
+      resultScreen.style.backgroundSize = "100% 100%"
    savePlayerData();
 }
 
@@ -259,14 +286,16 @@ function loser() {
    currentChips = currentChips - currentBet;
    currentChipsField.textContent = currentChips;
    setTimeout(showResultScreen, 1000);
+   getNextBet();
    console.log(currentChips, record);
    totalLosses++;
    totalLossesField.innerHTML = totalLosses;
- 
    resultScreen.style.background = "url(assets/images/result-background-loser.png) no-repeat"
    resultScreen.style.backgroundSize = "100% 100%"
    savePlayerData();
 }
+
+
 
 let forbiddenBet = 0;
 function checkBetConditions() {
@@ -368,24 +397,39 @@ hitBtn.onclick = function () {
       playerDrawCard();
       check();
    }
-   minusBtn.disabled = true;
-   plusBtn.disabled = true;
+   
    setRecord();
 };
+
+function getNextBet(){
+   currentBet = 0;
+   let bet25Element = document.getElementById('bet-25-alt');
+   let bet50Element = document.getElementById('bet-50-alt');
+   let bet75Element= document.getElementById('bet-75-alt');
+   let bet100Element = document.getElementById('bet-100-alt');
+
+   bet25Element.onclick = function(){currentBet=25; currentBetField.textContent = currentBet;};
+   bet50Element.onclick = function(){currentBet=50;currentBetField.textContent = currentBet;};
+   bet75Element.onclick = function(){currentBet=75;currentBetField.textContent = currentBet;};
+   bet100Element.onclick = function(){currentBet=100; currentBetField.textContent = currentBet;};
+
+}
 
 // PLAY AGAIn
 function playAgain() {
    // clearing values
    checkBetConditions();
+   if (forbiddenBet == 1) {
+      disableGameButtons();
+      return alert("Place a new bet");
+   }
    if (forbiddenBet == 2) {
-      holdBtn.disabled = true;
-      hitBtn.disabled = true;
+      disableGameButtons();
       return alert("You have no chips - Reset the game!");
    }
    deckIndex = 0;
    holdBtn.disabled = false;
-   minusBtn.disabled = false;
-   plusBtn.disabled = false;
+   
    doubleBtn.disabled = false;
    shuffle(deck);
    // player
@@ -414,8 +458,6 @@ function playAgain() {
    document.getElementById("dealer-name-span").innerHTML = "";
    resultScreen.style.visibility = "hidden";
    dealHands();
-   currentBet = 25;
-   currentBetField.textContent = 25;
    savePlayerData();
 }
 
@@ -449,6 +491,7 @@ function resetData() {
    totalLosses = 0;
    totalWins = 0;
    totalDraws = 0;
+   isPlayer = false;
    savePlayerData();
 }
 

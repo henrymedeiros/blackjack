@@ -16,11 +16,12 @@
 </head>
 
 <body>
-    <!--
+    
     <audio id="player" autoplay loop>
         <source src="sounds/song.mp3" type="audio/mp3">
-    </audio>-->
-
+    </audio>
+    
+    
 
     <div class="container">
         <div class="table">
@@ -110,7 +111,34 @@
            
         </div>
 
-
+        <div id="start-screen" class="start-screen-container">
+            <div class="start-screen">
+                <h1 id="welcome-message-title"> Welcome to the Blackjack game </h1>
+                <p class="start-screen-description">Start playing by selecting your bet below. To view the rules at any time, click the icon in the top right.</p>
+                <div class="bets">
+                    <div id="bet-25" class="next-bet">
+                        <img src="assets/icons/25.png" alt="">
+                        <p>25</p>
+                    </div>
+                    <div id="bet-50" class="next-bet">
+                        <img src="assets/icons/50.png" alt="">
+                        <p>50</p>
+                    </div>
+                    <div id="bet-75" class="next-bet">
+                        <img src="assets/icons/75.png" alt="">
+                        <p>75</p>
+                    </div>
+                    <div id="bet-100" class="next-bet">
+                        <img src="assets/icons/100.png" alt="">
+                        <p>100</p>
+                    </div>
+                    
+                </div>
+                <button id="start-game" class="">
+                    Play
+                </button>
+            </div>
+        </div>
         <!-- HIDED CONTENT-->
 
         <!-- RESULT SCREEN -->
@@ -140,20 +168,20 @@
 
 
                     <div class="bets">
-                        <div class="next-bet">
-                            <img src="assets/icons/current-bet.png" alt="">
+                        <div id="bet-25-alt" class="next-bet">
+                            <img src="assets/icons/25.png" alt="">
                             <p>25</p>
                         </div>
-                        <div class="next-bet">
-                            <img src="assets/icons/current-bet.png" alt="">
+                        <div id="bet-50-alt" class="next-bet">
+                            <img src="assets/icons/50.png" alt="">
                             <p>50</p>
                         </div>
-                        <div class="next-bet">
-                            <img src="assets/icons/current-bet.png" alt="">
+                        <div  id="bet-75-alt"class="next-bet">
+                            <img src="assets/icons/75.png" alt="">
                             <p>75</p>
                         </div>
-                        <div class="next-bet">
-                            <img src="assets/icons/current-bet.png" alt="">
+                        <div id="bet-100-alt"class="next-bet">
+                            <img src="assets/icons/100.png" alt="">
                             <p>100</p>
                         </div>
 
@@ -203,10 +231,10 @@
                     <p id="yourChips-value" class="value"></p>
 
                 </div>
-                <div class="data-area-alt" id="currentBet">
+                <div class="data-area" id="currentBet">
                     <p class="name">Current Bet</p>
-                    <button id="minus-btn" class="minus-btn">-</button>
-                    <button id="plus-btn" class="plus-btn"> + </button>
+                    <!--<button id="minus-btn" class="minus-btn">-</button>
+                    <button id="plus-btn" class="plus-btn"> + </button>-->
                     <span class="icon">
                         <img src="assets/icons/current-bet.png" alt="">
                     </span>
