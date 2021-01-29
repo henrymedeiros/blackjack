@@ -52,27 +52,28 @@ let resultScreen = document.getElementById("result-screen");
 let dealerHand = document.getElementById("dealer-cards");
 let playerHand = document.getElementById("player-cards");
 
+console.log()
 function loadData(){
    if(localStorage.currentChips){
-      currentChips = localStorage.currentChips;
-      record = localStorage.record;
-      winstreak = localStorage.winstreak;
-      totalWins = localStorage.totalWins
-      totalLosses = localStorage.totalLosses;
-      totalDraws = localStorage.totalDraws;
+      currentChips = parseInt(localStorage.currentChips, 10);
+      record = parseInt(localStorage.record, 10);
+      winstreak = parseInt(localStorage.winstreak, 10);
+      totalWins = parseInt(localStorage.totalWins, 10)
+      totalLosses = parseInt(localStorage.totalLosses, 10);
+      totalDraws = parseInt(localStorage.totalDraws, 10);
    }
 }
 
 loadData();
 
 function initializeDataUI() {
-   currentChipsField.textContent = currentChips;
-   currentBetField.textContent= currentBet;
-   recordField.textContent = record;
-   winStreakField.textContent = winstreak;
-   totalWinsField.textContent = totalWins;
-   totalLossesField.textContent = totalLosses;
-   totalDrawsField.textContent = totalDraws;
+   currentChipsField.innerHTML = currentChips;
+   currentBetField.innerHTML= currentBet;
+   recordField.innerHTML = record;
+   winStreakField.innerHTML = winstreak;
+   totalWinsField.innerHTML = totalWins;
+   totalLossesField.innerHTML = totalLosses;
+   totalDrawsField.innerHTML = totalDraws;
 }
 
 function showResultScreen() {
@@ -459,7 +460,6 @@ function resetDataUI() {
    totalLossesField.innerHTML = 0;
    totalWinsField.innerHTML = 0;
    totalDrawsField.innerHTML = 0;
-   
 }
 
 resetDataBtn.onclick = function () {
