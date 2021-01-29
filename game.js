@@ -6,6 +6,8 @@ let deckIndex = 0;
 let playerCurrentCardValue = 0;
 let dealerCurrentCardValue = 0;
 
+
+
 let currentChips = 500;
 let currentBet = 25;
 let record = 500;
@@ -51,11 +53,27 @@ let resultScreen = document.getElementById("result-screen");
 let dealerHand = document.getElementById("dealer-cards");
 let playerHand = document.getElementById("player-cards");
 
+function loadData(){
+   if(localStorage.currentChips){
+      currentChips = localStorage.currentChips;
+      record = localStorage.record;
+      winstreak = localStorage.winstreak;
+      totalWins = localStorage.totalWins
+      totalLosses = localStorage.totalLosses;
+      totalDraws = localStorage.totalDraws;
+   }
+}
+
+loadData();
+
 function initializeDataUI() {
    currentChipsField.innerHTML = currentChips;
    currentBetField.innerHTML = currentBet;
    recordField.innerHTML = record;
    winStreakField.innerHTML = winstreak;
+   totalWinsField.innerHTML = totalWins;
+   totalLossesField.innerHTML = totalLosses;
+   totalDrawsField.innerHTML = totalDraws;
 }
 
 function showResultScreen() {
@@ -82,6 +100,14 @@ function turnCardUp() {
 initializeDataUI();
 
 
+function savePlayerData(){
+   localStorage.setItem('currentChips', currentChips);
+   localStorage.setItem('record', record);
+   localStorage.setItem('winstreak', winstreak);
+   localStorage.setItem('totalWins', totalWins);
+   localStorage.setItem('totalLosses', totalLosses);
+   localStorage.setItem('totalDraws', totalDraws);
+}
 
 // Result screen
 
@@ -189,6 +215,8 @@ holdBtn.onclick = function () {
    }
 };
 
+
+
 function winner(blackjackWin) {
    hitBtn.disabled = true;
    playerFinalScoreField.innerHTML = playerCurrentCardValue;
@@ -215,7 +243,7 @@ function winner(blackjackWin) {
       winStreakField.innerHTML = winstreak;
    }
    setTimeout(showResultScreen, 1000);
-   console.log(currentChips, record);
+   savePlayerData();
 }
 
 function draw() {
@@ -224,9 +252,9 @@ function draw() {
    dealerFinalScoreField.innerHTML = dealerCurrentCardValue;
    resultTitle.innerHTML = "It's a draw!";
    setTimeout(showResultScreen, 1000);
-   console.log(currentChips, record);
    totalDraws++;
    totalDrawsField.innerHTML = totalDraws;
+   savePlayerData();
 }
 
 function loser() {
@@ -242,6 +270,7 @@ function loser() {
    totalLossesField.innerHTML = totalLosses;
    resultScreen.style.background = "url(assets/images/result-background-loser.png) no-repeat"
    resultScreen.style.backgroundSize = "100% 100%"
+   savePlayerData();
 }
 
 let forbiddenBet = 0;
@@ -393,6 +422,7 @@ function playAgain() {
    currentBet = 25;
    currentBetField.innerHTML = 25;
    currentStreak = winstreak;
+   savePlayerData();
 }
 
 playAgainBtn.onclick = function () {
@@ -425,11 +455,10 @@ function resetData() {
    totalLosses = 0;
    totalWins = 0;
    totalDraws = 0;
+   savePlayerData();
 }
 
 function resetDataUI() {
-   let usernameElement = document.getElementById("username-element");
-   let userDescriptionElement = document.getElementById("user-description-element");
    currentChipsField.innerHTML = 500;
    currentBetField.innerHTML = 25;
    recordField.innerHTML = 500;
@@ -437,8 +466,7 @@ function resetDataUI() {
    totalLossesField.innerHTML = 0;
    totalWinsField.innerHTML = 0;
    totalDrawsField.innerHTML = 0;
-   usernameElement.textContent = 'Player Name'
-   userDescriptionElement.textContent = "\"I'm a winner\""
+   
 }
 
 resetDataBtn.onclick = function () {
@@ -446,4 +474,6 @@ resetDataBtn.onclick = function () {
    resetDataUI();
 };
 
-// HOLD BUTTON
+
+
+
