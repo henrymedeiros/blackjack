@@ -125,6 +125,10 @@ function turnCardDown() {
 function turnCardUp() {
    let image = document.getElementById("2");
    image.src = deck[2].img;
+   console.log("turned");
+   document.getElementById("dealer-name-span").innerHTML =
+   dealerCurrentCardValue;
+   
 }
 
 function gameStart() {
@@ -248,7 +252,7 @@ function dealHands() {
       if (i == 1) {
          turnCardDown();
          document.getElementById("dealer-name-span").innerHTML =
-            dealerCurrentCardValue - deck[2].value;
+         dealerCurrentCardValue - deck[2].value;
       }
       playerDrawCard();
    }
@@ -275,6 +279,7 @@ holdBtn.onclick = function () {
 
 function winner(blackjackWin) {
    hitBtn.disabled = true;
+   turnCardUp();
    playerFinalScoreField.innerHTML = playerCurrentCardValue;
    dealerFinalScoreField.innerHTML = dealerCurrentCardValue;
    if (blackjackWin === 1) {
@@ -318,6 +323,7 @@ function draw() {
 }
 
 function loser() {
+   turnCardUp();
    hitBtn.disabled = true;
    playerFinalScoreField.innerHTML = playerCurrentCardValue;
    dealerFinalScoreField.innerHTML = dealerCurrentCardValue;
@@ -433,6 +439,7 @@ hitBtn.onclick = function () {
    if (forbiddenBet == 3) {
       return alert("Can't place that bet, lower it");
    } else if (forbiddenBet == 0) {
+      
       playerDrawCard();
       check();
    }
