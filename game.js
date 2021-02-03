@@ -24,7 +24,6 @@ let dealerCardsImagesArray = [];
 let playerArrayCounter = 0;
 let dealerArrayCounter = 0;
 
-let isPlayer = false;
 
 
 // FIELDS
@@ -38,6 +37,7 @@ let totalDrawsField = document.getElementById("total-draws");
 let playerFinalScoreField = document.getElementById("player-final-score");
 let dealerFinalScoreField = document.getElementById("dealer-final-score");
 let resultTitle = document.getElementById("result-title");
+
 
 // BUTTONS
 let hitBtn = document.getElementById("hit-btn");
@@ -61,7 +61,6 @@ function loadData(){
       totalWins = parseInt(localStorage.totalWins, 10)
       totalLosses = parseInt(localStorage.totalLosses, 10);
       totalDraws = parseInt(localStorage.totalDraws, 10);
-      isPlayer = localStorage.isPlayer;
    }
 }
 
@@ -137,7 +136,7 @@ function savePlayerData(){
    localStorage.setItem('totalWins', totalWins);
    localStorage.setItem('totalLosses', totalLosses);
    localStorage.setItem('totalDraws', totalDraws);
-   localStorage.setItem('isPlayer', true);
+   
 }
 
 function getFirstBet(){
@@ -236,6 +235,7 @@ holdBtn.onclick = function () {
       setRecord();
    }
 };
+
 
 
 
@@ -491,7 +491,6 @@ function resetData() {
    totalLosses = 0;
    totalWins = 0;
    totalDraws = 0;
-   isPlayer = false;
    savePlayerData();
 }
 
