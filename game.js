@@ -2,17 +2,35 @@ import { deck, shuffle } from "./deck.js";
 
 shuffle(deck);
 
+const quotes = {
+   loserQuotes: [
+      "You are very predictable.",
+      "Did you really think you had a chance?",
+      "You make this game look a lot easier.",
+      "Oops! Be more careful with your bets buddy",
+   ],
+   winnerQuotes: [
+      "Sometimes we win, sometimes we lose... Enjoy your Lucky day.",
+      "You got lucky this time. Try again if you dare!",
+      "Are you cheating?",
+      "Just to remember: You can't win forever!",
+   ],
+   drawQuotes: [
+      "This is your best result!", 
+      "Boring...",
+      "Go on! I can't accept this result.",
+      "I can live with that."
+   ],
+};
+
 let deckIndex = 0;
 let playerCurrentCardValue = 0;
 let dealerCurrentCardValue = 0;
-
-
 
 let currentChips = 500;
 let currentBet = 25;
 let record = 500;
 let winstreak = 0;
-
 
 let totalDraws = 0;
 let totalWins = 0;
@@ -23,8 +41,6 @@ let dealerCardsImagesArray = [];
 
 let playerArrayCounter = 0;
 let dealerArrayCounter = 0;
-
-
 
 // FIELDS
 let currentChipsField = document.getElementById("yourChips-value");
@@ -38,7 +54,6 @@ let playerFinalScoreField = document.getElementById("player-final-score");
 let dealerFinalScoreField = document.getElementById("dealer-final-score");
 let resultTitle = document.getElementById("result-title");
 
-
 // BUTTONS
 let hitBtn = document.getElementById("hit-btn");
 let holdBtn = document.getElementById("hold-btn");
@@ -46,49 +61,45 @@ let doubleBtn = document.getElementById("double");
 let resetDataBtn = document.getElementById("reset-data");
 let resetGameBtn = document.getElementById("reset-game");
 let playAgainBtn = document.getElementById("play-again-btn");
-let startGameBtn = document.getElementById("start-game")
+let startGameBtn = document.getElementById("start-game");
 // SCREENS
 let resultScreen = document.getElementById("result-screen");
 // UI Parts
 let dealerHand = document.getElementById("dealer-cards");
 let playerHand = document.getElementById("player-cards");
 
-function loadData(){
-   if(localStorage.currentChips){
+function loadData() {
+   if (localStorage.currentChips) {
       currentChips = parseInt(localStorage.currentChips, 10);
       record = parseInt(localStorage.record, 10);
       winstreak = parseInt(localStorage.winstreak, 10);
-      totalWins = parseInt(localStorage.totalWins, 10)
+      totalWins = parseInt(localStorage.totalWins, 10);
       totalLosses = parseInt(localStorage.totalLosses, 10);
       totalDraws = parseInt(localStorage.totalDraws, 10);
    }
 }
 
-function disableGameButtons(){
+function disableGameButtons() {
    hitBtn.disabled = true;
    holdBtn.disabled = true;
    doubleBtn.disabled = true;
 }
 
-function enableGameButtons(){
+function enableGameButtons() {
    hitBtn.disabled = false;
    holdBtn.disabled = false;
    doubleBtn.disabled = false;
 }
 
-
-
 function initializeDataUI() {
    currentChipsField.innerHTML = currentChips;
-   currentBetField.innerHTML= currentBet;
+   currentBetField.innerHTML = currentBet;
    recordField.innerHTML = record;
    winStreakField.innerHTML = winstreak;
    totalWinsField.innerHTML = totalWins;
    totalLossesField.innerHTML = totalLosses;
    totalDrawsField.innerHTML = totalDraws;
 }
-
-
 
 loadData();
 initializeDataUI();
@@ -116,41 +127,67 @@ function turnCardUp() {
    image.src = deck[2].img;
 }
 
-function gameStart(){
-   let startScreen = document.getElementById('start-screen');
+function gameStart() {
+   let startScreen = document.getElementById("start-screen");
    startScreen.style.visibility = "hidden";
 }
 
-startGameBtn.onclick = function(){
+startGameBtn.onclick = function () {
    gameStart();
    enableGameButtons();
+};
+
+function pickQuote(result){
+   let chosenQuoteElement = document.querySelector('.result-phrase');
+   let number = Math.random() * 3;
+   number = Math.trunc(number);
+   console.log(number);
+   if(result==='winner'){
+      let chosenQuote = quotes.winnerQuotes[number];
+      chosenQuoteElement.textContent= chosenQuote;
+   }
+   else if(result==='loser'){
+      let chosenQuote = quotes.loserQuotes[number];
+      chosenQuoteElement.textContent= chosenQuote;
+   }
+   else{
+      let chosenQuote = quotes.drawQuotes[number];
+      chosenQuoteElement.textContent= chosenQuote;
+   }
 }
 
-
-
-
-function savePlayerData(){
-   localStorage.setItem('currentChips', currentChips);
-   localStorage.setItem('record', record);
-   localStorage.setItem('winstreak', winstreak);
-   localStorage.setItem('totalWins', totalWins);
-   localStorage.setItem('totalLosses', totalLosses);
-   localStorage.setItem('totalDraws', totalDraws);
-   
+function savePlayerData() {
+   localStorage.setItem("record", record);
+   localStorage.setItem("currentChips", currentChips);
+   localStorage.setItem("winstreak", winstreak);
+   localStorage.setItem("totalWins", totalWins);
+   localStorage.setItem("totalLosses", totalLosses);
+   localStorage.setItem("totalDraws", totalDraws);
 }
 
-function getFirstBet(){
-   let bet25Element = document.getElementById('bet-25');
-   let bet50Element = document.getElementById('bet-50');
-   let bet75Element= document.getElementById('bet-75');
-   let bet100Element = document.getElementById('bet-100');
+function getFirstBet() {
+   let bet25Element = document.getElementById("bet-25");
+   let bet50Element = document.getElementById("bet-50");
+   let bet75Element = document.getElementById("bet-75");
+   let bet100Element = document.getElementById("bet-100");
 
-   bet25Element.onclick = function(){currentBet=25; currentBetField.textContent = currentBet;};
-   bet50Element.onclick = function(){currentBet=50;currentBetField.textContent = currentBet;};
-   bet75Element.onclick = function(){currentBet=75;currentBetField.textContent = currentBet;};
-   bet100Element.onclick = function(){currentBet=100; currentBetField.textContent = currentBet;};
+   bet25Element.onclick = function () {
+      currentBet = 25;
+      currentBetField.textContent = currentBet;
+   };
+   bet50Element.onclick = function () {
+      currentBet = 50;
+      currentBetField.textContent = currentBet;
+   };
+   bet75Element.onclick = function () {
+      currentBet = 75;
+      currentBetField.textContent = currentBet;
+   };
+   bet100Element.onclick = function () {
+      currentBet = 100;
+      currentBetField.textContent = currentBet;
+   };
 }
-
 
 function playerDrawCard() {
    // ACE CHECK
@@ -236,9 +273,6 @@ holdBtn.onclick = function () {
    }
 };
 
-
-
-
 function winner(blackjackWin) {
    hitBtn.disabled = true;
    playerFinalScoreField.innerHTML = playerCurrentCardValue;
@@ -247,20 +281,23 @@ function winner(blackjackWin) {
       resultTitle.innerHTML = "Blackjack!";
       currentChips = currentChips + currentBet * 3;
       currentChipsField.textContent = currentChips;
-      resultScreen.style.background = "url(assets/images/result-background-blackjack.png) no-repeat"
-      resultScreen.style.backgroundSize = "100% 100%"
+      resultScreen.style.background =
+         "url(assets/images/result-background-blackjack.png) no-repeat";
+      resultScreen.style.backgroundSize = "100% 100%";
    } else {
       resultTitle.innerHTML = "You win";
       currentChips = currentChips + currentBet;
       currentChipsField.textContent = currentChips;
-      resultScreen.style.background = "url(assets/images/result-background.png) no-repeat"
-      resultScreen.style.backgroundSize = "100% 100%"
+      resultScreen.style.background =
+         "url(assets/images/result-background.png) no-repeat";
+      resultScreen.style.backgroundSize = "100% 100%";
    }
+   pickQuote('winner');
    totalWins++;
    totalWinsField.innerHTML = totalWins;
    setTimeout(showResultScreen, 1000);
    getNextBet();
-   
+
    savePlayerData();
 }
 
@@ -269,12 +306,14 @@ function draw() {
    playerFinalScoreField.innerHTML = playerCurrentCardValue;
    dealerFinalScoreField.innerHTML = dealerCurrentCardValue;
    resultTitle.innerHTML = "It's a draw!";
+   pickQuote('draw');
    setTimeout(showResultScreen, 1000);
    getNextBet();
    totalDraws++;
    totalDrawsField.innerHTML = totalDraws;
-   resultScreen.style.background = "url(assets/images/result-background.png) no-repeat"
-      resultScreen.style.backgroundSize = "100% 100%"
+   resultScreen.style.background =
+      "url(assets/images/result-background.png) no-repeat";
+   resultScreen.style.backgroundSize = "100% 100%";
    savePlayerData();
 }
 
@@ -283,6 +322,7 @@ function loser() {
    playerFinalScoreField.innerHTML = playerCurrentCardValue;
    dealerFinalScoreField.innerHTML = dealerCurrentCardValue;
    resultTitle.innerHTML = "You lose";
+   pickQuote('loser');
    currentChips = currentChips - currentBet;
    currentChipsField.textContent = currentChips;
    setTimeout(showResultScreen, 1000);
@@ -290,12 +330,11 @@ function loser() {
    console.log(currentChips, record);
    totalLosses++;
    totalLossesField.innerHTML = totalLosses;
-   resultScreen.style.background = "url(assets/images/result-background-loser.png) no-repeat"
-   resultScreen.style.backgroundSize = "100% 100%"
+   resultScreen.style.background =
+      "url(assets/images/result-background-loser.png) no-repeat";
+   resultScreen.style.backgroundSize = "100% 100%";
    savePlayerData();
 }
-
-
 
 let forbiddenBet = 0;
 function checkBetConditions() {
@@ -397,22 +436,33 @@ hitBtn.onclick = function () {
       playerDrawCard();
       check();
    }
-   
+
    setRecord();
 };
 
-function getNextBet(){
+function getNextBet() {
    currentBet = 0;
-   let bet25Element = document.getElementById('bet-25-alt');
-   let bet50Element = document.getElementById('bet-50-alt');
-   let bet75Element= document.getElementById('bet-75-alt');
-   let bet100Element = document.getElementById('bet-100-alt');
+   let bet25Element = document.getElementById("bet-25-alt");
+   let bet50Element = document.getElementById("bet-50-alt");
+   let bet75Element = document.getElementById("bet-75-alt");
+   let bet100Element = document.getElementById("bet-100-alt");
 
-   bet25Element.onclick = function(){currentBet=25; currentBetField.textContent = currentBet;};
-   bet50Element.onclick = function(){currentBet=50;currentBetField.textContent = currentBet;};
-   bet75Element.onclick = function(){currentBet=75;currentBetField.textContent = currentBet;};
-   bet100Element.onclick = function(){currentBet=100; currentBetField.textContent = currentBet;};
-
+   bet25Element.onclick = function () {
+      currentBet = 25;
+      currentBetField.textContent = currentBet;
+   };
+   bet50Element.onclick = function () {
+      currentBet = 50;
+      currentBetField.textContent = currentBet;
+   };
+   bet75Element.onclick = function () {
+      currentBet = 75;
+      currentBetField.textContent = currentBet;
+   };
+   bet100Element.onclick = function () {
+      currentBet = 100;
+      currentBetField.textContent = currentBet;
+   };
 }
 
 // PLAY AGAIn
@@ -429,7 +479,7 @@ function playAgain() {
    }
    deckIndex = 0;
    holdBtn.disabled = false;
-   
+
    doubleBtn.disabled = false;
    shuffle(deck);
    // player
@@ -508,7 +558,3 @@ resetDataBtn.onclick = function () {
    resetData();
    resetDataUI();
 };
-
-
-
-

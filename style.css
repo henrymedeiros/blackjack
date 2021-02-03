@@ -707,6 +707,7 @@ p {
    color: var(--darker-orange);
    padding: 6px 0 6px 0;
    font-weight: var(--medium);
+   font-size:var(--text);
 }
 
 .edit-info .mute-sound-btn {
